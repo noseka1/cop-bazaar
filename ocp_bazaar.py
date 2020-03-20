@@ -4,6 +4,7 @@ import os
 import pprint
 import requests
 import sys
+import urllib
 
 from model.repository import Repository
 from model.category import Category
@@ -17,23 +18,11 @@ class MarkDownOutputGenerator(object):
     __SORT_BY_STARS = "stars"
     __SORT_BY_LAST_UPDATED = "last_updated"
 
-    def __generate_front_page(self):
-        fname  = ("%s/%s" % (self.__OUTPUT_DIR, "README.md"))
-        logging.info("Writing %s", fname)
-        try:
-            out_file = open(fname, 'w')
-            try:
-                out_file.write("# Welcome to OCP Bazaar\n")
-                out_file.write("\n")
-                for category in Category.all:
-                    out_file.write("[%s](%s)\n" % (category.title, self.__category_basename(category, self.__SORT_BY_STARS)))
-            finally:
-                out_file.close()
-        except:
-            logging.exception("Failed to write file '" + fname + "'")
-
     def __category_basename(self, category, sort_by):
         return ("%s.%s.md" % (category.title, sort_by)).replace('/','_')
+
+    def __category_link(self, category, sort_by):
+        return urllib.parse.quote(self.__category_basename(category, sort_by))
 
     def __category_filename(self, category, sort_by):
         basename = self.__category_basename(category, sort_by)
@@ -54,9 +43,9 @@ class MarkDownOutputGenerator(object):
                 else:
                     sorted_repositories = sorted(category.repositories, key=lambda repo: repo.data['pushed_at'])
 
+                out_file.write("Name | Description | Last Updated | Stars | Forks\n")
+                out_file.write("--- | --- | --- | --- | ---\n")
                 for repo in sorted_repositories:
-                    out_file.write("Name | Description | Last Updated | Stars | Forks\n")
-                    out_file.write("--- | --- | --- | --- | ---\n")
                     out_file.write("[%s](%s) | %s | %s | %s | %s\n" % (
                         repo.data['repo_path'],
                         repo.data['html_url'],
@@ -68,9 +57,9 @@ class MarkDownOutputGenerator(object):
                 out_file.write("\n")
 
                 if sort_by == self.__SORT_BY_STARS:
-                    out_file.write("[Sort by Last Updated](%s)" %(self.__category_basename(category, self.__SORT_BY_LAST_UPDATED)))
+                    out_file.write("[Sort by Last Updated](%s)" %(self.__category_link(category, self.__SORT_BY_LAST_UPDATED)))
                 else:
-                    out_file.write("[Sort by Stars](%s)" %(self.__category_basename(category, self.__SORT_BY_STARS)))
+                    out_file.write("[Sort by Stars](%s)" %(self.__category_link(category, self.__SORT_BY_STARS)))
 
             finally:
                 out_file.close()
@@ -85,6 +74,21 @@ class MarkDownOutputGenerator(object):
         for category in Category.all:
             logging.info("Generating category %s", category.title)
             self.__generate_category(category)
+
+    def __generate_front_page(self):
+        fname  = ("%s/%s" % (self.__OUTPUT_DIR, "README.md"))
+        logging.info("Writing %s", fname)
+        try:
+            out_file = open(fname, 'w')
+            try:
+                out_file.write("# Welcome to OCP Bazaar\n")
+                out_file.write("\n")
+                for category in Category.all:
+                    out_file.write("[%s](%s)\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS)))
+            finally:
+                out_file.close()
+        except:
+            logging.exception("Failed to write file '" + fname + "'")
 
     def generate_output(self):
         os.mkdir(self.__OUTPUT_DIR)
