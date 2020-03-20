@@ -49,7 +49,7 @@ class MarkDownOutputGenerator(object):
                         key=lambda repo: repo.data['pushed_at'],
                         reverse=True)
 
-                out_file.write("Name | Description | Last Updated | Stars | Forks\n")
+                out_file.write("Name | Description | Last Updated | Stars \n")
                 out_file.write("--- | --- | --- | --- \n")
 
                 for repo in sorted_repositories:
