@@ -9,9 +9,9 @@ class Repository(object):
 
     all = []
 
-    def __init__(self, url, categories):
+    def __init__(self, url):
         self.url = url
-        self.categories = categories
+        self.categories = []
         self.data = dict()
         self.all.append(self)
 

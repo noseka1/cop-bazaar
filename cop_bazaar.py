@@ -5,12 +5,12 @@ import pprint
 import requests
 import sys
 import urllib
+import yaml
 
 from model.repository import Repository
 from model.category import Category
 
-import categories
-import repositories
+CONFIG = "config.yaml"
 
 class MarkDownOutputGenerator(object):
 
@@ -116,19 +116,33 @@ class Main(object):
         handler.setFormatter(formatter)
         root.addHandler(handler)
 
-    def __prepare_data(self):
-        for repo in Repository.all:
+    def __load_config(self):
+        with open(CONFIG) as file:
+            config = yaml.load(file, Loader=yaml.FullLoader)
+        return config
+
+    def __prepare_data(self, config):
+        categories = { "all": Category("All") }
+
+        for category_yaml in config['categories']:
+            categories[category_yaml['name']] = Category(category_yaml['title'])
+
+        for repo_yaml in config['repositories']:
+            repo = Repository(repo_yaml['url'])
+            for category_yaml in repo_yaml['categories']:
+                repo.categories.append(categories[category_yaml])
             # grab info from the web
             repo.fetchRepoData()
             # add repo to the referred categories
             for category in repo.categories:
                 category.repositories.append(repo)
             # add repo to the category All
-            category.ALL.repositories.append(repo)
+            categories['all'].repositories.append(repo)
 
     def main(self):
         self.__init_logging()
-        self.__prepare_data()
+        config = self.__load_config()
+        self.__prepare_data(config)
         MarkDownOutputGenerator().generate_output()
 
 Main().main()
