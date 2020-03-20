@@ -1,6 +1,6 @@
 # OCP Configuration by Last Updated
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-03-19 | 179 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | A collection of configuration settings to be applied after OpenShift installation | 2020-03-14 | 0 

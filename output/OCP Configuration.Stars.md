@@ -1,6 +1,6 @@
 # OCP Configuration by Stars
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-03-19 | 179 
 [christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2020-01-31 | 21 

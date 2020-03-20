@@ -1,6 +1,6 @@
 # OCP Disconnected by Stars
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [sushilsuresh/ocp4-disconnected](https://github.com/sushilsuresh/ocp4-disconnected) | OpenShift 4.x disconnected install with a working OperatorHub | 2020-02-13 | 14 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2020-03-13 | 5 

@@ -1,6 +1,6 @@
 # OCP Installation by Last Updated
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/vchintal/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-03-20 | 9 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Ansible Deployer for multiple Cloud Deployers | 2020-03-20 | 202 

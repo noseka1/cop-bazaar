@@ -1,6 +1,6 @@
 # All by Last Updated
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2020-03-20 | 45 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/vchintal/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-03-20 | 9 

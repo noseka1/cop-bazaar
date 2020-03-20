@@ -1,6 +1,6 @@
 # OCP Installation by Stars
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Ansible Deployer for multiple Cloud Deployers | 2020-03-20 | 202 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-03-13 | 116 

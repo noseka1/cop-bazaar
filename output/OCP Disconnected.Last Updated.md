@@ -1,6 +1,6 @@
 # OCP Disconnected by Last Updated
 
-Name | Description | Last Updated | Stars | Forks
+Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2020-03-13 | 5 
 [cadjai/mirror-content-for-disconnected-openshift-install](https://github.com/cadjai/mirror-content-for-disconnected-openshift-install) | This is playbook to mirror needed contents for a complete disconnected openshift installation | 2020-02-17 | 0 
