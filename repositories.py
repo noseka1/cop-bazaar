@@ -9,8 +9,10 @@ Repository('https://github.com/chuckersjp/coreos-iso-maker', [Category.OCP_INSTA
 Repository('https://github.com/containercraft/ocp-mini-stack', [Category.OCP_INSTALL])
 Repository('https://github.com/dudash/openshift-simplified-gcp-install', [Category.OCP_INSTALL])
 Repository('https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips', [Category.OCP_INSTALL])
+Repository('https://github.com/eformat/openshift-disconnected', [Category.OCP_DISCONNECTED])
 Repository('https://github.com/kcalliga/42_deployment', [Category.OCP_DISCONNECTED])
 Repository('https://github.com/maci0/openshift4-ansible', [Category.OCP_INSTALL])
+Repository('https://github.com/marbe/ocp4-vmware-upi-installer', [Category.OCP_INSTALL])
 Repository('https://github.com/mikishapiro/ocp4-cluster-install', [Category.OCP_INSTALL])
 Repository('https://github.com/noseka1/ocs-kustomization', [Category.OCS])
 Repository('https://github.com/noseka1/openshift-auto-upi', [Category.OCP_INSTALL])
@@ -38,6 +40,7 @@ Repository('https://github.com/tosin2013/openshift-4-deployment-notes', [Categor
 Repository('https://github.com/tsailiming/openshift4-disconnected', [Category.OCP_DISCONNECTED])
 Repository('https://github.com/tsailiming/openshift4-vmware-upi', [Category.OCP_INSTALL])
 Repository('https://github.com/vchintal/ocp4-vsphere-upi-automation', [Category.OCP_INSTALL])
+Repository('https://github.com/williamcaban/ocp4-lab', [Category.OCP_INSTALL])
 
 #Repository('https://gitlab.consulting.redhat.com/nordics/ocp4-vmware-upi-prep', [Category.OCP_INSTALL])
 #Repository('https://gitlab.consulting.redhat.com/jnaess/ocp4-prereqs', [Category.OCP_INSTALL])
