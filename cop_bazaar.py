@@ -55,7 +55,7 @@ class MarkDownOutputGenerator(object):
                     out_file.write("[%s](%s) | %s | %s | %s | %s\n" % (
                         repo.data['repo_path'],
                         repo.data['html_url'],
-                        repo.data['description'],
+                        repo.data['description'].replace("|", "\|"),
                         repo.data['pushed_at'][0:len('2020-01-01')],
                         repo.data['stargazers_count']
                     ))
