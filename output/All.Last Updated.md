@@ -2,19 +2,22 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2020-03-20 | 45 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/vchintal/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-03-20 | 9 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Ansible Deployer for multiple Cloud Deployers | 2020-03-20 | 202 
+[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2020-03-20 | 45 
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2020-03-20 | 0 
 [noseka1/ocs-kustomization](https://github.com/noseka1/ocs-kustomization) | Kustomization for deploying OpenShift Container Storage | 2020-03-20 | 0 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-03-19 | 179 
+[eformat/openshift-disconnected](https://github.com/eformat/openshift-disconnected) | None | 2020-03-18 | 0 
 [redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2020-03-17 | 157 
-[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2020-03-16 | 13 
+[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2020-03-16 | 14 
+[marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2020-03-15 | 3 
 [noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2020-03-15 | 8 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | A collection of configuration settings to be applied after OpenShift installation | 2020-03-14 | 0 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2020-03-13 | 5 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-03-13 | 116 
 [tsailiming/openshift4-vmware-upi](https://github.com/tsailiming/openshift4-vmware-upi) | To support OpenShift 4 on VMware using UPI method  | 2020-03-13 | 1 
+[williamcaban/ocp4-lab](https://github.com/williamcaban/ocp4-lab) | None | 2020-03-12 | 5 
 [raffaelespazzoli/ocp4-ansible-libvirt](https://github.com/raffaelespazzoli/ocp4-ansible-libvirt) | None | 2020-03-10 | 5 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2020-03-06 | 17 
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-03-05 | 9 
