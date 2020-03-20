@@ -39,9 +39,15 @@ class MarkDownOutputGenerator(object):
                 out_file.write("\n")
 
                 if sort_by == self.__SORT_BY_STARS:
-                    sorted_repositories = sorted(category.repositories, key=lambda repo: repo.data['stargazers_count'])
+                    sorted_repositories = sorted(
+                        category.repositories,
+                        key=lambda repo: repo.data['stargazers_count'],
+                        reverse=True)
                 else:
-                    sorted_repositories = sorted(category.repositories, key=lambda repo: repo.data['pushed_at'])
+                    sorted_repositories = sorted(
+                        category.repositories,
+                        key=lambda repo: repo.data['pushed_at'],
+                        reverse=True)
 
                 out_file.write("Name | Description | Last Updated | Stars | Forks\n")
                 out_file.write("--- | --- | --- | --- | ---\n")
@@ -50,7 +56,7 @@ class MarkDownOutputGenerator(object):
                         repo.data['repo_path'],
                         repo.data['html_url'],
                         repo.data['description'],
-                        repo.data['pushed_at'],
+                        repo.data['pushed_at'][0:len('2020-01-01')],
                         repo.data['stargazers_count'],
                         repo.data['forks_count']
                     ))
@@ -83,8 +89,9 @@ class MarkDownOutputGenerator(object):
             try:
                 out_file.write("# Welcome to OCP Bazaar\n")
                 out_file.write("\n")
+                out_file.write("Choose a category:\n")
                 for category in Category.all:
-                    out_file.write("[%s](%s)\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS)))
+                    out_file.write("* [%s](%s)\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS)))
             finally:
                 out_file.close()
         except:
