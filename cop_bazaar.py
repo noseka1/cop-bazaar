@@ -15,8 +15,8 @@ import repositories
 class MarkDownOutputGenerator(object):
 
     __OUTPUT_DIR = "output"
-    __SORT_BY_STARS = "stars"
-    __SORT_BY_LAST_UPDATED = "last_updated"
+    __SORT_BY_STARS = "Stars"
+    __SORT_BY_LAST_UPDATED = "Last Updated"
 
     def __category_basename(self, category, sort_by):
         return ("%s.%s.md" % (category.title, sort_by)).replace('/','_')
@@ -35,7 +35,7 @@ class MarkDownOutputGenerator(object):
         try:
             out_file = open(fname, 'w')
             try:
-                out_file.write("# %s\n" % (category.title))
+                out_file.write("# %s by %s\n" % (category.title, sort_by))
                 out_file.write("\n")
 
                 if sort_by == self.__SORT_BY_STARS:
@@ -57,8 +57,7 @@ class MarkDownOutputGenerator(object):
                         repo.data['html_url'],
                         repo.data['description'],
                         repo.data['pushed_at'][0:len('2020-01-01')],
-                        repo.data['stargazers_count'],
-                        repo.data['forks_count']
+                        repo.data['stargazers_count']
                     ))
                 out_file.write("\n")
 
