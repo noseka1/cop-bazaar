@@ -50,12 +50,16 @@ class MarkDownOutputGenerator(object):
                         reverse=True)
 
                 out_file.write("Name | Description | Last Updated | Stars | Forks\n")
-                out_file.write("--- | --- | --- | --- | ---\n")
+                out_file.write("--- | --- | --- | --- \n")
+
                 for repo in sorted_repositories:
-                    out_file.write("[%s](%s) | %s | %s | %s | %s\n" % (
+                    description = repo.data['description']
+                    if description is not None:
+                        description = description.replace("|", "\|")
+                    out_file.write("[%s](%s) | %s | %s | %s \n" % (
                         repo.data['repo_path'],
                         repo.data['html_url'],
-                        repo.data['description'].replace("|", "\|"),
+                        description,
                         repo.data['pushed_at'][0:len('2020-01-01')],
                         repo.data['stargazers_count']
                     ))
