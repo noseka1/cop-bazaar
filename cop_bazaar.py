@@ -6,6 +6,7 @@ import requests
 import sys
 import urllib
 import yaml
+from datetime import datetime
 
 from model.repository import Repository
 from model.category import Category
@@ -95,6 +96,8 @@ class MarkDownOutputGenerator(object):
                 out_file.write("Choose a category:\n")
                 for category in Category.all:
                     out_file.write("* [%s](%s)\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS)))
+                out_file.write("\n")
+                out_file.write("Last updated %s" % (datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
             finally:
                 out_file.close()
         except:
