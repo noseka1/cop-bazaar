@@ -27,7 +27,7 @@ Repository('https://github.com/redhat-cop/openshift-toolkit', [Category.OCP_CONF
 Repository('https://github.com/redhat-cop/pipeline-library', [Category.CICD])
 Repository('https://github.com/redhat-cop/ocp4-vsphere-workshop', [Category.OCP_INSTALL])
 Repository('https://github.com/redhat-cop/ocp4-prereqs-validator', [Category.OCP_INSTALL])
-Repository('https://github.com/redhat-cop/openshift-templates, [Category.OCP_CONFIG,Category.CICD])
+Repository('https://github.com/redhat-cop/openshift-templates', [Category.OCP_CONFIG,Category.CICD])
 Repository('https://github.com/sa-ne/openshift4-rhv-upi', [Category.OCP_INSTALL])
 Repository('https://github.com/sa-ne/openshift4-vmware-upi', [Category.OCP_INSTALL])
 Repository('https://github.com/sushilsuresh/ocp4-ansible-roles', [Category.OCP_CONFIG])
