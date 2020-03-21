@@ -91,7 +91,7 @@ class MarkDownOutputGenerator(object):
         try:
             out_file = open(fname, 'w')
             try:
-                out_file.write("# Welcome to OCP Bazaar\n")
+                out_file.write("# Welcome to COP Bazaar\n")
                 out_file.write("\n")
                 out_file.write("Choose a category:\n")
                 for category in Category.all:
