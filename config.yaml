@@ -19,6 +19,8 @@ categories:
 repositories:
 - url: https://github.com/aglenn360/ocp4_aws_upi_tf
   categories: [ ocp_install ]
+- url: https://github.com/ashcrow/filetranspiler
+  categories: [ ocp_install ]
 - url: https://github.com/cadjai/mirror-content-for-disconnected-openshift-install
   categories: [ ocp_disconnected ]
 - url: https://github.com/christianh814/openshift-toolbox
