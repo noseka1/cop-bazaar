@@ -1,4 +1,4 @@
-# Welcome to OCP Bazaar
+# Welcome to COP Bazaar
 
 Choose a category:
 * [All](All.Stars.md)
@@ -10,4 +10,4 @@ Choose a category:
 * [Red Hat Quay](Red%20Hat%20Quay.Stars.md)
 * [CI/CD](CI_CD.Stars.md)
 
-Last updated 20/03/2020 16:08:07
+Last updated 23/03/2020 10:54:57
