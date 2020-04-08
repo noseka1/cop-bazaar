@@ -75,6 +75,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/redhat-cop/openshift-templates
   categories: [ ocp_config, cicd ]
+- url: https://github.com/sa-mw-dach/ocp-on-kvm
+  categories: [ ocp_install ]
 - url: https://github.com/sa-ne/openshift4-rhv-upi
   categories: [ ocp_install ]
 - url: https://github.com/sa-ne/openshift4-vmware-upi
