@@ -47,6 +47,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/mikishapiro/ocp4-cluster-install
   categories: [ ocp_install ]
+- url: https://github.com/nccurry/okd-4-libvirt
+  categories: [ ocp_install ]
 - url: https://github.com/noseka1/ocs-kustomization
   categories: [ ocs ]
 - url: https://github.com/noseka1/openshift-auto-upi
