@@ -31,6 +31,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/containercraft/ocp-mini-stack
   categories: [ ocp_install ]
+- url: https://github.com/dmoessne/ocs-disk-gather
+  categories: [ ocs ]
 - url: https://github.com/dudash/openshift-simplified-gcp-install
   categories: [ ocp_install ]
 - url: https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips
