@@ -21,6 +21,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
   categories: [ ocp_install ]
+- url: https://github.com/bmangoen/openshift-hybrid-install
+  categories: [ ocp_install ]
 - url: https://github.com/cadjai/mirror-content-for-disconnected-openshift-install
   categories: [ ocp_disconnected ]
 - url: https://github.com/christianh814/openshift-toolbox
