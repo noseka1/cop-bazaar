@@ -19,6 +19,8 @@ categories:
 repositories:
 - url: https://github.com/aglenn360/ocp4_aws_upi_tf
   categories: [ ocp_install ]
+- url: https://github.com/alexgdmx/ocp4-vmware-terraform
+  categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
   categories: [ ocp_install ]
 - url: https://github.com/bmangoen/openshift-hybrid-install
