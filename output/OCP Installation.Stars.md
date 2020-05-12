@@ -27,7 +27,7 @@ Name | Description | Last Updated | Stars
 [alexgdmx/ocp4-vmware-terraform](https://github.com/alexgdmx/ocp4-vmware-terraform) | None | 2020-05-12 | 4 
 [containercraft/ocp-mini-stack](https://github.com/containercraft/ocp-mini-stack) | OpenShift Education & Development Lab \| Testing  & Operations Tooling | 2020-04-26 | 3 
 [jcordes73/ocp4labs-ansible](https://github.com/jcordes73/ocp4labs-ansible) | Automation of an OpenShift Lab Cluster | 2020-03-03 | 3 
-[Koma-Andrea/openshift4_vmware_infra_provisioner](https://github.com/Koma-Andrea/openshift4_vmware_infra_provisioner) | None | 2020-05-12 | 3 
+[Koma-Andrea/openshift4_vmware_infra_provisioner](https://github.com/Koma-Andrea/openshift4_vmware_infra_provisioner) | Deploy automatically OCP cluster on vmware vSphere without the need of a DHCP server (pseudo IPI) | 2020-05-12 | 3 
 [redhat-cop/ocp4-prereqs-validator](https://github.com/redhat-cop/ocp4-prereqs-validator) | Ansible resources to validate the prerequisites for OpenShift 4 | 2019-12-27 | 3 
 [sa-mw-dach/ocp-on-kvm](https://github.com/sa-mw-dach/ocp-on-kvm) | Deploying OpenShift Container Platform on KVM | 2020-03-05 | 3 
 [tsailiming/openshift4-vmware-upi](https://github.com/tsailiming/openshift4-vmware-upi) | To support OpenShift 4 on VMware using UPI method  | 2020-03-21 | 2 
