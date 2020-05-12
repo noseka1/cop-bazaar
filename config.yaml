@@ -67,6 +67,8 @@ repositories:
   categories: [ quay ]
 - url: https://github.com/raffaelespazzoli/ocp4-ansible-libvirt
   categories: [ ocp_install ]
+- url: https://github.com/ralvares/ipxe
+  categories: [ ocp_install ]
 - url: https://github.com/RedHatOfficial/ocp4-helpernode
   categories: [ ocp_install ]
 - url: https://github.com/red-hat-storage/ocs-training
