@@ -101,6 +101,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/siamaksade/openshift-cd-demo
   categories: [ cicd ]
+- url: https://github.com/sushilsuresh/ocp4-all-in-one
+  categories: [ ocp_install ]
 - url: https://github.com/sushilsuresh/ocp4-ansible-roles
   categories: [ ocp_config ]
 - url: https://github.com/sushilsuresh/ocp4-disconnected
