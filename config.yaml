@@ -99,6 +99,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/sa-ne/openshift4-vmware-upi
   categories: [ ocp_install ]
+- url: https://github.com/sabre1041/group-sync-operator
+  categories: [ ocp_config ]
 - url: https://github.com/siamaksade/openshift-cd-demo
   categories: [ cicd ]
 - url: https://github.com/sushilsuresh/ocp4-all-in-one
