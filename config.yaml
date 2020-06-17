@@ -45,6 +45,8 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
   categories: [ ocp_install ]
+- url: https://github.com/lbohnsac/OCP4
+  categories: [ ocp_config ]
 - url: https://github.com/liveaverage/packer-ocp4-vsphere-upi
   categories: [ ocp_install ]
 - url: https://github.com/Koma-Andrea/openshift4_vmware_infra_provisioner
