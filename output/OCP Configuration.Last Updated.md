@@ -8,7 +8,9 @@ Name | Description | Last Updated | Stars
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-08-13 | 19 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 194 
 [lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2020-08-06 | 16 
+[gnunn-gitops/cluster-config-acm](https://github.com/gnunn-gitops/cluster-config-acm) | ACM version of cluster configuration | 2020-07-28 | 0 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2020-07-22 | 0 
+[sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2020-06-29 | 4 
 [tosin2013/nfs-provisioner-role](https://github.com/tosin2013/nfs-provisioner-role) | This role will configure an NFS Server and a nfs-provisioner container in OpenShift. | 2020-06-05 | 1 
 
 [Sort by Stars](OCP%20Configuration.Stars.md)

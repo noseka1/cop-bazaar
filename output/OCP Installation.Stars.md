@@ -4,7 +4,7 @@ Name | Description | Last Updated | Stars
 --- | --- | --- | --- 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2020-08-21 | 235 
 [RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2020-08-20 | 137 
-[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-08-13 | 135 
+[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-08-21 | 135 
 [RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2020-08-09 | 50 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-07-27 | 43 
 [e-minguez/ocp4-upi-bm-pxeless-staticips](https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips) | Step by step guide to deploy OCP4 UPI on baremetal without PXE and with static IPs | 2019-11-22 | 38 
