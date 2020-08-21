@@ -2,48 +2,49 @@
 
 Name | Description | Last Updated | Stars
 --- | --- | --- | ---
-[siamaksade/openshift-cd-demo](https://github.com/siamaksade/openshift-cd-demo) | CI/CD Demo on OpenShift | 2020-05-06 | 431
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2020-06-17 | 223
-[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-05-15 | 189
-[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2020-06-17 | 175
-[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-06-17 | 129
-[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2020-06-11 | 107
-[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2020-06-16 | 95
-[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2020-06-10 | 54
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2020-06-17 | 40
-[redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2020-06-17 | 39
-[e-minguez/ocp4-upi-bm-pxeless-staticips](https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips) | Step by step guide to deploy OCP4 UPI on baremetal without PXE and with static IPs | 2019-11-22 | 36
-[sa-ne/openshift4-rhv-upi](https://github.com/sa-ne/openshift4-rhv-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on RHV Using Baremetal UPI | 2020-06-11 | 35
-[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-06-12 | 35
-[ashcrow/filetranspiler](https://github.com/ashcrow/filetranspiler) | Creates an update Ignition json file with additions from a fake root. | 2020-05-07 | 32
-[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2020-06-09 | 32
-[christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2020-05-19 | 26
-[chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2020-06-05 | 23
-[redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2020-06-11 | 21
-[sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2020-01-30 | 18
-[sushilsuresh/ocp4-disconnected](https://github.com/sushilsuresh/ocp4-disconnected) | OpenShift 4.x disconnected install with a working OperatorHub | 2020-02-13 | 18
-[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2020-05-10 | 18
-[redhat-cop/ocp4-vsphere-workshop](https://github.com/redhat-cop/ocp4-vsphere-workshop) | Workshop Hands-on - Deploying OpenShift on vSphere | 2020-04-23 | 17
-[sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-06-16 | 14
-[alexgdmx/ocp4-vmware-terraform](https://github.com/alexgdmx/ocp4-vmware-terraform) | None | 2020-06-10 | 13
-[lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2020-06-17 | 13
+[siamaksade/openshift-cd-demo](https://github.com/siamaksade/openshift-cd-demo) | CI/CD Demo on OpenShift | 2020-08-05 | 446
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2020-08-21 | 235
+[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 194
+[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2020-08-18 | 190
+[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2020-08-20 | 137
+[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2020-08-13 | 135
+[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2020-08-20 | 114
+[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2020-08-20 | 57
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2020-08-09 | 50
+[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2020-07-27 | 43
+[redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2020-08-05 | 39
+[e-minguez/ocp4-upi-bm-pxeless-staticips](https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips) | Step by step guide to deploy OCP4 UPI on baremetal without PXE and with static IPs | 2019-11-22 | 38
+[sa-ne/openshift4-rhv-upi](https://github.com/sa-ne/openshift4-rhv-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on RHV Using Baremetal UPI | 2020-07-06 | 36
+[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2020-08-10 | 35
+[ashcrow/filetranspiler](https://github.com/ashcrow/filetranspiler) | Creates an update Ignition json file with additions from a fake root. | 2020-06-19 | 32
+[chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2020-07-24 | 31
+[christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2020-08-13 | 28
+[redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2020-08-18 | 23
+[sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2020-07-29 | 23
+[sushilsuresh/ocp4-disconnected](https://github.com/sushilsuresh/ocp4-disconnected) | OpenShift 4.x disconnected install with a working OperatorHub | 2020-02-13 | 20
+[sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-08-13 | 19
+[redhat-cop/ocp4-vsphere-workshop](https://github.com/redhat-cop/ocp4-vsphere-workshop) | Workshop Hands-on - Deploying OpenShift on vSphere | 2020-08-04 | 18
+[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2020-07-18 | 18
+[lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2020-08-06 | 16
+[alexgdmx/ocp4-vmware-terraform](https://github.com/alexgdmx/ocp4-vmware-terraform) | None | 2020-06-10 | 15
 [maci0/openshift4-ansible](https://github.com/maci0/openshift4-ansible) | None | 2019-11-28 | 9
+[Koma-Andrea/openshift4_vmware_infra_provisioner](https://github.com/Koma-Andrea/openshift4_vmware_infra_provisioner) | ansible pseudo IPI for Openshift v4 on vSphere without the need of a DHCP server or reservation | 2020-06-04 | 8
 [williamcaban/ocp4-lab](https://github.com/williamcaban/ocp4-lab) | None | 2020-04-14 | 8
 [dudash/openshift-simplified-gcp-install](https://github.com/dudash/openshift-simplified-gcp-install) | OpenShift Simplified - Setting up OpenShift on GCP | 2020-01-24 | 7
-[Koma-Andrea/openshift4_vmware_infra_provisioner](https://github.com/Koma-Andrea/openshift4_vmware_infra_provisioner) | ansible pseudo IPI for Openshift v4 on vSphere without the need of a DHCP server or reservation | 2020-06-04 | 7
 [mikishapiro/ocp4-cluster-install](https://github.com/mikishapiro/ocp4-cluster-install) | IPI AWS installer for OCP4 | 2020-04-03 | 7
 [ralvares/ipxe](https://github.com/ralvares/ipxe) | Automating Openshift Deployment on VMware using Static IPs where DHCP is not a option. | 2020-04-20 | 7
 [redhat-cop/ocp4-prereqs-validator](https://github.com/redhat-cop/ocp4-prereqs-validator) | Ansible resources to validate the prerequisites for OpenShift 4 | 2019-12-27 | 7
 [aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6
 [raffaelespazzoli/ocp4-ansible-libvirt](https://github.com/raffaelespazzoli/ocp4-ansible-libvirt) | None | 2020-03-10 | 6
-[marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2020-04-22 | 5
+[spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2020-06-11 | 6
+[jcordes73/ocp4labs-ansible](https://github.com/jcordes73/ocp4labs-ansible) | Automation of an OpenShift Lab Cluster | 2020-03-03 | 5
+[marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2020-08-20 | 5
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2020-03-13 | 5
 [containercraft/ocp-mini-stack](https://github.com/containercraft/ocp-mini-stack) | OpenShift Education & Development Lab \| Testing  & Operations Tooling | 2020-04-26 | 3
-[jcordes73/ocp4labs-ansible](https://github.com/jcordes73/ocp4labs-ansible) | Automation of an OpenShift Lab Cluster | 2020-03-03 | 3
 [sa-mw-dach/ocp-on-kvm](https://github.com/sa-mw-dach/ocp-on-kvm) | Deploying OpenShift Container Platform on KVM | 2020-03-05 | 3
 [tsailiming/openshift4-vmware-upi](https://github.com/tsailiming/openshift4-vmware-upi) | To support OpenShift 4 on VMware using UPI method  | 2020-03-21 | 3
-[dmoessne/ocs-disk-gather](https://github.com/dmoessne/ocs-disk-gather) | Gather disk information from OCP4 nodes for OCS 4 local storage setup  | 2020-04-16 | 2
-[elajoie/lab.local](https://github.com/elajoie/lab.local) | Ansible based install and setup of OCP and other tools | 2020-04-12 | 1
+[elajoie/lab.local](https://github.com/elajoie/lab.local) | Ansible based install and setup of OCP and other tools | 2020-04-12 | 2
+[dmoessne/ocs-disk-gather](https://github.com/dmoessne/ocs-disk-gather) | Gather disk information from OCP4 nodes for OCS 4 local storage setup  | 2020-04-16 | 1
 [sushilsuresh/ocp4-all-in-one](https://github.com/sushilsuresh/ocp4-all-in-one) | Patches required to get an OCP - AIO (all in one) cluster up and running | 2020-05-08 | 1
 [sushilsuresh/ocp4-vsphere](https://github.com/sushilsuresh/ocp4-vsphere) | Installation of OpenShift 4 on vSphere using Terraform  | 2020-02-11 | 1
 [tosin2013/nfs-provisioner-role](https://github.com/tosin2013/nfs-provisioner-role) | This role will configure an NFS Server and a nfs-provisioner container in OpenShift. | 2020-06-05 | 1
@@ -53,9 +54,9 @@ Name | Description | Last Updated | Stars
 [liveaverage/packer-ocp4-vsphere-upi](https://github.com/liveaverage/packer-ocp4-vsphere-upi) | Sample Packer initialization of vSphere UPI for OCP 4 | 2020-04-23 | 0
 [kcalliga/42_deployment](https://github.com/kcalliga/42_deployment) | Ansible Playbooks/Roles to Clone 4.2 Repos and Build Supporting Infrastructure Needed for UPI | 2020-05-12 | 0
 [nccurry/okd-4-libvirt](https://github.com/nccurry/okd-4-libvirt) | Ansible playbooks to deploy OKD on FCOS or OCP on RHCOS into QEMU/KVM. | 2020-06-09 | 0
-[noseka1/ocs-kustomization](https://github.com/noseka1/ocs-kustomization) | Kustomization for deploying OpenShift Container Storage | 2020-06-04 | 0
-[noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | A collection of configuration settings to be applied after OpenShift installation | 2020-05-05 | 0
+[noseka1/ocs-kustomization](https://github.com/noseka1/ocs-kustomization) | Kustomization for deploying OpenShift Container Storage | 2020-06-27 | 0
+[noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2020-07-22 | 0
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2020-06-05 | 0
-[sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2020-06-11 | 0
+[sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2020-08-21 | 0
 
 [Sort by Last Updated](All.Last%20Updated.md)
