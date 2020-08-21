@@ -35,6 +35,8 @@ repositories:
   categories: [ ocp_install ]
 - url:  https://github.com/gnunn-gitops/cluster-config-acm
   categories: [ ocp_config ]
+- url: https://github.com/darthlukan/gitops-workshop
+  categories: [ cicd ]
 - url: https://github.com/dgoodwin/openshift4-gitops
   categories: [ cicd ]
 - url: https://github.com/dmoessne/ocs-disk-gather
