@@ -33,6 +33,10 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/containercraft/ocp-mini-stack
   categories: [ ocp_install ]
+- url:  https://github.com/gnunn-gitops/cluster-config-acm
+  categories: [ ocp_config ]
+- url: https://github.com/dgoodwin/openshift4-gitops
+  categories: [ cicd ]
 - url: https://github.com/dmoessne/ocs-disk-gather
   categories: [ ocs ]
 - url: https://github.com/dudash/openshift-simplified-gcp-install
@@ -43,6 +47,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/eformat/openshift-disconnected
   categories: [ ocp_disconnected ]
+- url: https://github.com/gnunn-gitops/product-catalog
+  categories: [ cicd ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
   categories: [ ocp_install ]
 - url: https://github.com/lbohnsac/OCP4
@@ -59,6 +65,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/mikishapiro/ocp4-cluster-install
   categories: [ ocp_install ]
+- url: https://github.com/mvazquezc/code-to-prod-blog
+  categories: [ cicd ]
 - url: https://github.com/nccurry/okd-4-libvirt
   categories: [ ocp_install ]
 - url: https://github.com/noseka1/ocs-kustomization
