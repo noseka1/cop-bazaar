@@ -139,6 +139,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/vchintal/ocp4-vsphere-upi-automation
   categories: [ ocp_install ]
+- url: https://github.com/willb/openshift-ml-workflows-workshop
+  categories: [ ocp_workloads ]
 - url: https://github.com/williamcaban/ocp4-lab
   categories: [ ocp_install ]
 
