@@ -30,6 +30,12 @@ class MarkDownOutputGenerator(object):
         filename = ("%s/%s" % (self.__OUTPUT_DIR, basename))
         return filename
 
+    def __add_sort_by_link(self, out_file, category, sort_by):
+        if sort_by == self.__SORT_BY_STARS:
+            out_file.write("[Sort by Last Updated](%s)" %(self.__category_link(category, self.__SORT_BY_LAST_UPDATED)))
+        else:
+            out_file.write("[Sort by Stars](%s)" %(self.__category_link(category, self.__SORT_BY_STARS)))
+
     def __write_category(self, category, sort_by):
         fname = self.__category_filename(category, sort_by)
         logging.info("Writing %s", fname)
@@ -50,6 +56,10 @@ class MarkDownOutputGenerator(object):
                         key=lambda repo: repo.data['pushed_at'],
                         reverse=True)
 
+                self.__add_sort_by_link(out_file, category, sort_by)
+                out_file.write("\n")
+                out_file.write("\n")
+
                 out_file.write("Name | Description | Last Updated | Stars \n")
                 out_file.write("--- | --- | --- | --- \n")
 
@@ -66,10 +76,7 @@ class MarkDownOutputGenerator(object):
                     ))
                 out_file.write("\n")
 
-                if sort_by == self.__SORT_BY_STARS:
-                    out_file.write("[Sort by Last Updated](%s)" %(self.__category_link(category, self.__SORT_BY_LAST_UPDATED)))
-                else:
-                    out_file.write("[Sort by Stars](%s)" %(self.__category_link(category, self.__SORT_BY_STARS)))
+                self.__add_sort_by_link(out_file, category, sort_by)
 
             finally:
                 out_file.close()
