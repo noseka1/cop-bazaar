@@ -102,7 +102,8 @@ class MarkDownOutputGenerator(object):
                 out_file.write("\n")
                 out_file.write("Choose a category:\n")
                 for category in Category.all:
-                    out_file.write("* [%s](%s)\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS)))
+                    out_file.write("* [%s](%s) - %s\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS),
+                            category.desc))
                 out_file.write("\n")
                 out_file.write("Last updated %s" % (datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
             finally:
@@ -132,10 +133,10 @@ class Main(object):
         return config
 
     def __prepare_data(self, config):
-        categories = { "all": Category("All") }
+        categories = { "all": Category("All", "All projects.") }
 
         for category_yaml in config['categories']:
-            categories[category_yaml['name']] = Category(category_yaml['title'])
+            categories[category_yaml['name']] = Category(category_yaml['title'], category_yaml['desc'])
 
         for repo_yaml in config['repositories']:
             repo = Repository(repo_yaml['url'])

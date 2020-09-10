@@ -2,18 +2,25 @@
 categories:
 - name: ocp_install
   title: OCP Installation
+  desc: Projects that automate or enhance the deployment of OCP.
 - name: ocp_config
   title: OCP Configuration
+  desc: Projects that automate various OCP configuration tasks. There are collections of code samples that help you get started with OpenShift as well.
 - name: ocp_disconnected
   title: OCP Disconnected
+  desc: Scripts and automation for configuring OCP in disconnected or network restricted environments.
 - name: ocp_workloads
   title: OCP Workloads
+  desc: Automation for deploying popular workloads on OpenShift.
 - name: ocs
   title: OpenShift Container Storage
+  desc: Projects that focus on the OpenShift Container Storage product.
 - name: quay
   title: Red Hat Quay
+  desc: Projects that focus on the Red Hat Quay product.
 - name: cicd
   title: CI/CD
+  desc: CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
 
 # repositories in alphabetic order
 repositories:
