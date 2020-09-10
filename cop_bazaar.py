@@ -100,6 +100,10 @@ class MarkDownOutputGenerator(object):
             try:
                 out_file.write("# Welcome to COP Bazaar\n")
                 out_file.write("\n")
+                out_file.write("This is a catalog of OpenShift related projects created by Redhatters. If you would like to add"
+                        " your project to the catalog, include your project in the *config.yaml* file and submit your"
+                        " change as a pull request.\n")
+                out_file.write("\n")
                 out_file.write("Choose a category:\n")
                 for category in Category.all:
                     out_file.write("* [%s](%s) - %s\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS),
