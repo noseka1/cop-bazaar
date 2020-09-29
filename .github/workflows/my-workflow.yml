@@ -24,4 +24,4 @@ jobs:
         run: pip list 
       - name: Update COP List
         run: |
-          curl -s --url https://raw.githubusercontent.com/leethomasrh/cop-bazaar/master/cop_bazaar.py --header 'authorization: Bearer ${{ secrets.TOKEN }}' --header 'content-type: application/python' | python -
+          curl -s --url https://raw.githubusercontent.com/leethomasrh/cop-bazaar/master/cop_bazaar.py --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' | python -
