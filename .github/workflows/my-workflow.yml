@@ -21,5 +21,7 @@ jobs:
       - name: Display installed pips
         run: pip list 
       - name: Update COP List
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python model/repository.py
+          python cop-bazaar.py
