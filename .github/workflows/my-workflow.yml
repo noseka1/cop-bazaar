@@ -1,0 +1,25 @@
+name: Run Update
+
+on: [push]
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Display python version
+        run: python -V
+      - name: Display installed pips
+        run: pip list    
+      - name: Install dependencies
+        run: pip install requests
+      - name: Display installed pips
+        run: pip list 
+      - name: Update COP List
+        run: |
+          python model/repository.py
