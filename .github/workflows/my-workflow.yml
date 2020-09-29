@@ -26,4 +26,4 @@ jobs:
         run: |
           python cop_bazaar.py
           with:
-            repo-token: ${{ secrets.GITHUB_TOKEN }}  
+            repo-token: ${{ secrets.TOKEN }}  
