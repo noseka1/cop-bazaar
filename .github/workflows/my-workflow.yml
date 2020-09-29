@@ -12,7 +12,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display python version
         run: python -V
       - name: Display installed pips
@@ -24,5 +23,8 @@ jobs:
       - name: Display installed pips
         run: pip list 
       - name: Update COP List
+        uses: actions/setup-python@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python cop_bazaar.py
