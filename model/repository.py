@@ -1,9 +1,13 @@
 import logging
 import pprint
 import requests
+import os
 
 GITHUB_REPO_PREFIX = 'https://github.com/'
 GITHUB_API = 'https://api.github.com/repos/'
+token = os.getenv('TOKEN')
+authorization = "Bearer %s" % (token)
+header = {'Authorization': authorization}
 
 class Repository(object):
 
@@ -21,7 +25,7 @@ class Repository(object):
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
-            repo_info = requests.get('%s%s' % (GITHUB_API, repo_path))
+            repo_info = requests.get('%s%s' % (GITHUB_API, repo_path), headers=header)
             repo_json = repo_info.json()
             if repo_info.status_code == 200:
                 self.data['repo_path'] = repo_path
