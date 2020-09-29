@@ -23,8 +23,7 @@ jobs:
       - name: Display installed pips
         run: pip list 
       - name: Update COP List
-        uses: actions/setup-python@v2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python cop_bazaar.py
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}  
