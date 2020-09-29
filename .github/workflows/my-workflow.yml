@@ -23,4 +23,4 @@ jobs:
         run: pip list 
       - name: Update COP List
         run: |
-          python cop-bazaar.py
+          python cop_bazaar.py
