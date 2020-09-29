@@ -25,5 +25,5 @@ jobs:
       - name: Update COP List
         run: |
           python cop_bazaar.py
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}  
+          with:
+            repo-token: ${{ secrets.GITHUB_TOKEN }}  
