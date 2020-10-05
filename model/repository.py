@@ -19,6 +19,7 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
+        print(header)
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
