@@ -4,7 +4,7 @@ import requests
 
 GITHUB_REPO_PREFIX = 'https://github.com/'
 GITHUB_API = 'https://api.github.com/repos/'
-header={'Authorization': 'Bearer 8fc685092225553a4cbcf05d6ebf297a499436b6'}
+header={'Authorization': 'Bearer '}
 
 class Repository(object):
 
