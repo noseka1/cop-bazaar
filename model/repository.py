@@ -19,11 +19,11 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
-        print(header)
+        print(secrets.GITHUB_TOKEN)
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
-            repo_info = requests.get('%s%s', header=header % (GITHUB_API, repo_path))
+            repo_info = requests.get('%s%s' % (GITHUB_API, repo_path))
             repo_json = repo_info.json()
             if repo_info.status_code == 200:
                 self.data['repo_path'] = repo_path
