@@ -12,20 +12,14 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - name: Display python version
-        run: python -V
-      - name: Display installed pips
-        run: pip list    
       - name: Install requests module
         run: pip install requests
       - name: Install yaml module
         run: pip install pyyaml
-      - name: Display installed pips
-        run: pip list 
       - name: Update COP List
         shell: bash
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python cop_bazaar.py
 
