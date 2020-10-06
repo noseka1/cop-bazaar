@@ -12,6 +12,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+      - name: display env value
+        run: echo $TOKEN
       - name: Display python version
         run: python -V
       - name: Display installed pips
@@ -25,3 +29,4 @@ jobs:
       - name: Update COP List
         run: |
           python cop_bazaar.py
+
