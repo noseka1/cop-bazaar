@@ -24,8 +24,6 @@ class Repository(object):
         logging.info("Fetching data for repo %s", self.url)
         print ("header:")
         print (header)
-        print ("api_token:")
-        print (api_token)
         try:  
            os.environ["TOKEN"]
         except KeyError: 
