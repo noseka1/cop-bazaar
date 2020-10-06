@@ -8,7 +8,6 @@ GITHUB_API = 'https://api.github.com/repos/'
 token = os.getenv('TOKEN')
 authorization = "Bearer %s" % (token)
 header = {'Authorization': authorization}
-temp = "test"
 
 class Repository(object):
 
