@@ -5,7 +5,8 @@ import os
 
 GITHUB_REPO_PREFIX = 'https://github.com/'
 GITHUB_API = 'https://api.github.com/repos/'
-header={'Authorization': 'Bearer os.environ.get("TOKEN")'}
+api_token = os.environ.get('TOKEN')
+header={'Authorization': 'Bearer api_token'}
 
 class Repository(object):
 
@@ -22,6 +23,8 @@ class Repository(object):
         logging.info("Fetching data for repo %s", self.url)
         print ("header:")
         print (header)
+        print ("api_token:")
+        print (api_token)
         try:  
            os.environ["TOKEN"]
         except KeyError: 
