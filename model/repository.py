@@ -20,7 +20,8 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
-        print ("header:" header)
+        print ("header:")
+        print (header)
         try:  
            os.environ["TOKEN"]
         except KeyError: 
