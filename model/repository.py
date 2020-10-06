@@ -23,7 +23,7 @@ class Repository(object):
         try:  
            os.environ["TOKEN"]
         except KeyError: 
-           print "Please set the environment variable TOKEN"
+           print ("Please set the environment variable TOKEN")
            sys.exit(1)
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
