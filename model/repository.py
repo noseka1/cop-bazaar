@@ -23,7 +23,7 @@ class Repository(object):
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
-            repo_info = requests.get('%s%s' % (GITHUB_API, repo_path), headers={'Authorization': 'Bearer ${{ secrets.TOKEN }}'})
+            repo_info = requests.get('%s%s' % (GITHUB_API, repo_path), headers=header)
             repo_json = repo_info.json()
             if repo_info.status_code == 200:
                 self.data['repo_path'] = repo_path
