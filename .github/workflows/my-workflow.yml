@@ -15,7 +15,7 @@ jobs:
       - shell: bash
         env:
           TOKEN: ${{ secrets.TOKEN }}
-        run: echo "$TOKEN"
+        run: curl -H "Authorization: token TOKEN" https://api.github.com/gists/starred
       - name: Display python version
         run: python -V
       - name: Display installed pips
