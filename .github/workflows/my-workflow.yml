@@ -15,7 +15,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
       - name: display env value
-        run: echo "%TOKEN%"
+        run: echo "$TOKEN"
       - name: Display python version
         run: python -V
       - name: Display installed pips
