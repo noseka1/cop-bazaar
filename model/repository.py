@@ -22,11 +22,6 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
-        try:  
-           os.environ["TOKEN"]
-        except KeyError: 
-           print ("Please set the environment variable TOKEN")
-           sys.exit(1)
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
