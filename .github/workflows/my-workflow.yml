@@ -15,7 +15,8 @@ jobs:
       - shell: bash
         env:
           TOKEN: ${{ secrets.TOKEN }}
-        run: curl -s --url https://github.com/raw/leethomasrh/cop-bazaar/authorizations --header 'authorization: Bearer ${{ secrets.TOKEN }}'
+        run: |
+          curl -s --url https://github.com/raw/leethomasrh/cop-bazaar/authorizations --header 'authorization: Bearer ${{ secrets.TOKEN }}'
       - name: Display python version
         run: python -V
       - name: Display installed pips
