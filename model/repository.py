@@ -5,7 +5,7 @@ import os
 
 GITHUB_REPO_PREFIX = 'https://github.com/'
 GITHUB_API = 'https://api.github.com/repos/'
-header={'Authorization': 'Bearer 'os.environ["TOKEN"]}
+header={'Authorization': 'Bearer 'os.environ.get('TOKEN')}
 
 class Repository(object):
 
