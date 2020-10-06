@@ -12,11 +12,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - shell: bash
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          curl --url https://raw.githubusercontent.com/leethomasrh/cop-bazaar/master/cop_bazaar.py --header 'authorization: Bearer ${{ secrets.TOKEN }}' > /tmp/cop_bazaar.tmp.py && cat /tmp/cop_bazaar.tmp.py
       - name: Display python version
         run: python -V
       - name: Display installed pips
@@ -28,6 +23,9 @@ jobs:
       - name: Display installed pips
         run: pip list 
       - name: Update COP List
+        shell: bash
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           python cop_bazaar.py
 
