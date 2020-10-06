@@ -12,9 +12,9 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - shell: bash
         env:
           TOKEN: ${{ secrets.TOKEN }}
-      - name: display env value
         run: echo "$TOKEN"
       - name: Display python version
         run: python -V
