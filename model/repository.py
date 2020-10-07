@@ -22,6 +22,9 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
+        token = os.getenv('TOKEN')
+        authorization = "Bearer %s" % (token)
+        header = {'Authorization': authorization}
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
