@@ -19,7 +19,8 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
-        token = os.getenv('TOKEN')
+        #token = os.getenv('TOKEN')
+        token = "None"
         print ("token:")
         print (token)
         authorization = "Bearer %s" % (token)
@@ -27,6 +28,7 @@ class Repository(object):
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
+            print("token: " + token)
             if token != "None":
               repo_info = requests.get('%s%s' % (GITHUB_API, repo_path), headers=header)
             else: #make an unauthenticated request - Github limits to 60 requests
