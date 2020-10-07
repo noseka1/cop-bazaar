@@ -5,9 +5,6 @@ import os
 
 GITHUB_REPO_PREFIX = 'https://github.com/'
 GITHUB_API = 'https://api.github.com/repos/'
-token = os.getenv('TOKEN')
-authorization = "Bearer %s" % (token)
-header = {'Authorization': authorization}
 
 class Repository(object):
 
@@ -22,6 +19,9 @@ class Repository(object):
     def fetchRepoData(self):
 
         logging.info("Fetching data for repo %s", self.url)
+        token = os.getenv('TOKEN')
+        authorization = "Bearer %s" % (token)
+        header = {'Authorization': authorization}
 
         if self.url.startswith(GITHUB_REPO_PREFIX):
             repo_path = self.url[len(GITHUB_REPO_PREFIX):]
