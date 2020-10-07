@@ -18,6 +18,8 @@ jobs:
         run: pip install pyyaml
       - name: Update COP List
         shell: bash
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python cop_bazaar.py
 

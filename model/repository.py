@@ -20,9 +20,6 @@ class Repository(object):
 
         logging.info("Fetching data for repo %s", self.url)
         token = os.getenv('TOKEN')
-        #token = "None"
-        print ("token:")
-        print (token)
         authorization = "Bearer %s" % (token)
         header = {'Authorization': authorization}
 
