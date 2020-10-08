@@ -26,8 +26,12 @@ jobs:
         run: |
           python cop_bazaar.py &&
           mv output output2 &&
+          echo "checkout output branch" &&
           git checkout output &&
+          echo "rm output folder and move updated output folder" &&
           rm -rf output &&
           mv output2 output &&
+          echo "add, commit and push output update" &&
+          git add output &&
           git commit -m "Updating output via gitaction" &&
           git push
