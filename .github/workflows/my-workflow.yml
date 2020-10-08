@@ -1,0 +1,25 @@
+name: Run Update
+
+on: [push]
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install requests module
+        run: pip install requests
+      - name: Install yaml module
+        run: pip install pyyaml
+      - name: Update COP List
+        shell: bash
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python cop_bazaar.py
+
