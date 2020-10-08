@@ -27,6 +27,7 @@ jobs:
           python cop_bazaar.py &&
           mv output output2 &&
           echo "checkout output branch" &&
+          git branch &&
           git checkout output &&
           echo "rm output folder and move updated output folder" &&
           rm -rf output &&
