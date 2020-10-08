@@ -26,7 +26,7 @@ jobs:
         run: |
           python cop_bazaar.py &&
           mv output output2 &&
-          git checkout output &&
+          git checkout --track origin/output &&
           rm -rf output &&
           mv output2 output &&
           git commit -m "Updating output via gitaction" &&
