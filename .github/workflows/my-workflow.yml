@@ -1,6 +1,9 @@
 name: Run Update
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   action:
