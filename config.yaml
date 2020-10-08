@@ -21,6 +21,9 @@ categories:
 - name: cicd
   title: CI/CD
   desc: CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
+- name: test-cicd
+  title: CI/CD
+  desc: Test CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
 
 # repositories in alphabetic order
 repositories:
