@@ -6,35 +6,43 @@ on:
       - master
 
 jobs:
-  action:
-    runs-on: ubuntu-latest
+  generate_output:
+    name: Generate Output
+    action:
+      runs-on: ubuntu-latest
     
+      steps:
+        - uses: actions/checkout@v2
+        - name: Set up Python 3.x
+          uses: actions/setup-python@v2
+          with:
+            python-version: '3.x'
+        - name: Install requests module
+          run: pip install requests
+        - name: Install yaml module
+          run: pip install pyyaml
+        - name: Update COP List
+          shell: bash
+          env:
+            TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run: |
+            python cop_bazaar.py
+  update_output:
+    name: Update Output
+    needs: generate_output
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-      - name: Install requests module
-        run: pip install requests
-      - name: Install yaml module
-        run: pip install pyyaml
-      - name: Update COP List
-        shell: bash
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python cop_bazaar.py &&
-          mv output output2 &&
-          echo "checkout output branch" &&
-          git remote update &&
-          git fetch && 
-          git branch &&
-          git checkout output &&
-          echo "rm output folder and move updated output folder" &&
-          rm -rf output &&
-          mv output2 output &&
-          echo "add, commit and push output update" &&
-          git add output &&
-          git commit -m "Updating output via gitaction" &&
-          git push
+          
+            mv output output2 &&
+            echo "checkout output branch" &&
+            git remote update &&
+            git fetch &&
+            git branch &&
+            git checkout output &&
+            echo "rm output folder and move updated output folder" &&
+            rm -rf output &&
+            mv output2 output &&
+            echo "add, commit and push output update" &&
+            git add output &&
+            git commit -m "Updating output via gitaction" &&
+            git push
