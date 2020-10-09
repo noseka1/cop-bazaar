@@ -32,7 +32,7 @@ jobs:
     needs: generate_output
     steps:
       - uses: actions/checkout@v2
-          
+
             mv output output2 &&
             echo "checkout output branch" &&
             git remote update &&
