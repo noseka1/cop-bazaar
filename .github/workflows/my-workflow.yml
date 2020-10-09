@@ -6,8 +6,6 @@ on:
       - master
 
 jobs:
-  generate_output:
-  name: Generate Output
   action:
     runs-on: ubuntu-latest
 
