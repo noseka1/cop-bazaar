@@ -31,26 +31,26 @@ jobs:
   update_output:
     name: Update Output
     needs: generate_output
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: output
-      - name: setup Github environment
-        run: |
-          #setup username and email to use Github Actions Bot with no default email
-          git config user.name "Github Actions Bot"
-          git config user.email "<>"
-      - name: push the output to the repo
-        shell: bash
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-            echo "checkout output branch" &&
-            git branch &&
-            echo "rm output folder and move updated output folder" &&
-            rm -rf output &&
-            mv output2 output &&
-            echo "add, commit and push output update" &&
-            git add output &&
-            git commit -m "Updating output via gitaction" &&
-            git push
+      steps:
+        - uses: actions/checkout@v2
+          with:
+            ref: output
+        - name: setup Github environment
+          run: |
+            #setup username and email to use Github Actions Bot with no default email
+            git config user.name "Github Actions Bot"
+            git config user.email "<>"
+        - name: push the output to the repo
+          shell: bash
+          env:
+            TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run: |
+              echo "checkout output branch" &&
+              git branch &&
+              echo "rm output folder and move updated output folder" &&
+              rm -rf output &&
+              mv output2 output &&
+              echo "add, commit and push output update" &&
+              git add output &&
+              git commit -m "Updating output via gitaction" &&
+              git push
