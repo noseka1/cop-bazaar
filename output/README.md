@@ -1,6 +1,6 @@
 # Welcome to COP Bazaar
 
-This is a catalog of OpenShift related projects created by Redhatters. If you would like to add your project to the catalog, you can include your project in the *config.yaml* file and submit your change as a pull request.
+This is a catalog of OpenShift related projects created by Redhatters. If you would like to add your project to the catalog, include your project in the *config.yaml* file and submit your change as a pull request.
 
 Choose a category:
 * [All](All.Stars.md) - All projects.
@@ -12,4 +12,4 @@ Choose a category:
 * [Red Hat Quay](Red%20Hat%20Quay.Stars.md) - Projects that focus on the Red Hat Quay product.
 * [CI/CD](CI_CD.Stars.md) - CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
 
-Last updated 10/09/2020 12:51:25
+Last updated 27/10/2020 13:47:13
