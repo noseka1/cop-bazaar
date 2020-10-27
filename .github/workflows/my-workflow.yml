@@ -30,7 +30,7 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python cop_bazaar.py &&
-          mv output output2
+          mv output output2 &&
           echo "checkout output branch" &&
           git remote update &&
           git fetch &&
