@@ -11,6 +11,5 @@ Choose a category:
 * [OpenShift Container Storage](OpenShift%20Container%20Storage.Stars.md) - Projects that focus on the OpenShift Container Storage product.
 * [Red Hat Quay](Red%20Hat%20Quay.Stars.md) - Projects that focus on the Red Hat Quay product.
 * [CI/CD](CI_CD.Stars.md) - CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
-* [My Test Category](My%20Test%20Category.Stars.md) - This is just a test.
 
-Last updated 11/11/2020 04:31:32
+Last updated 11/11/2020 04:34:51
