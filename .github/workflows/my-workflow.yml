@@ -29,13 +29,12 @@ jobs:
           repository: leethomasrh/cop
           token: ${{ secrets.PAT }}
           path: dispatch
-      - name: Update COP List
         shell: bash
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
           pwd &&
-          ls -alR &&
+          ls -alR .. &&
           python cop_bazaar.py &&
           mv cop/output cop/output2 &&
           echo "checkout output branch" &&
