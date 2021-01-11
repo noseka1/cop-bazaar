@@ -40,7 +40,7 @@ jobs:
           git remote update &&
           git fetch &&
           git branch &&
-          git checkout leethomasrh/cop/output &&
+          git checkout output &&
           echo "rm output folder and move updated output folder" &&
           rm -rf output &&
           mv output2 output &&
