@@ -29,6 +29,7 @@ jobs:
           repository: leethomasrh/cop
           token: ${{ secrets.PAT }}
           path: dispatch
+      - name: Update COP List
         shell: bash
         env:
           TOKEN: ${{ secrets.PAT }}
