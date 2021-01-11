@@ -27,12 +27,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: leethomasrh/cop
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           path: dispatch
       - name: Update COP List
         shell: bash
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           pwd &&
           ls -al &&
