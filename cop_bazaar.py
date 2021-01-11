@@ -11,7 +11,7 @@ from datetime import datetime
 from model.repository import Repository
 from model.category import Category
 
-CONFIG = "config.yaml"
+CONFIG = "cop/config.yaml"
 
 class MarkDownOutputGenerator(object):
 
