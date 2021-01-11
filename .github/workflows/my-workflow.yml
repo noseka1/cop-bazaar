@@ -35,7 +35,7 @@ jobs:
           TOKEN: ${{ secrets.PAT }}
         run: |
           pwd &&
-          ls -al &&
+          ls -alR &&
           python cop_bazaar.py &&
           mv cop/output cop/output2 &&
           echo "checkout output branch" &&
