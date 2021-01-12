@@ -28,9 +28,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          python cop_bazaar.py &&
           echo "checkout output branch" &&
           git remote add -t output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
+          python cop_bazaar.py &&
           git branch -v -a &&
           git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
