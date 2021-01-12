@@ -37,6 +37,10 @@ jobs:
           python cop_bazaar.py &&
           git branch -v -a &&
           echo "checkout output branch" &&
+          git remote update &&
+          git fetch &&
+          git branch &&
+          git branch -v -a &&
           git checkout output &&
           echo "rm output folder and move updated output folder" &&
           mv ./cop/output ./cop/output2 &&
