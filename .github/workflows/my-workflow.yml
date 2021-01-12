@@ -35,6 +35,8 @@ jobs:
           TOKEN: ${{ secrets.PAT }}
         run: |
           python cop_bazaar.py &&
+          git clone git@github.com:leethomasrh/COP.git
+          git branch -v -a &&
           echo "checkout output branch" &&
           git checkout output &&
           echo "rm output folder and move updated output folder" &&
