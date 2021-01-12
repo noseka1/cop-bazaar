@@ -35,13 +35,21 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          python cop_bazaar.py &&
-          mv ./cop/output ./cop/output2
-          echo "checkout output branch" &&
-          git remote add output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
-          git fetch output &&
-          git checkout output &&
-          mv ./cop/output2 ./cop/output &&
-          git add ./cop/output &&
+          python cop_bazaar.py
+      - name: Checkout remote output branch
+        uses: actions/checkout@v2
+        with:
+          repository: leethomasrh/cop
+          ref: output
+          token: ${{ secrets.PAT }}
+          path: ./cop-output
+      - name: Push output to COP
+        shell: bash
+        env:
+          TOKEN: ${{ secrets.PAT }}
+        run: |
+          rm -rf ./cop-output/output
+          cp -r ./cop/output ./cop-output/output
+          git add ./cop-output/output &&
           git commit -m "Updating output via gitaction" &&
           git push
