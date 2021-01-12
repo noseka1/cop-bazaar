@@ -36,7 +36,8 @@ jobs:
         run: |
           python cop_bazaar.py &&
           git branch -v -a &&
-          ls -alR ../*output* &&
+          pwd &&
+          find . -name output -print &&
 #          echo "checkout output branch" &&
 #          git remote update &&
 #          git fetch &&
