@@ -26,7 +26,8 @@ jobs:
       - name: Checkout remote main branch
         uses: actions/checkout@v2
         with:
-          repository: leethomasrh/cop@main
+          repository: leethomasrh/cop@
+          ref: main
           token: ${{ secrets.PAT }}
           path: ./cop
       - name: Run COP update
@@ -38,7 +39,8 @@ jobs:
       - name: Checkout remote output branch
         uses: actions/checkout@v2
         with:
-          repository: leethomasrh/cop@output
+          repository: leethomasrh/cop
+          ref: output
           token: ${{ secrets.PAT }}
           path: ./cop-output
       - name: Update COP List
