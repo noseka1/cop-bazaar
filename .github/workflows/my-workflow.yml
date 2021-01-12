@@ -36,7 +36,7 @@ jobs:
         run: |
           python cop_bazaar.py &&
           echo "checkout output branch" &&
-          git checkout -b output leethomasrh/cop/output &&
+          git checkout output &&
           echo "rm output folder and move updated output folder" &&
           mv output output2 &&
           rm -rf output &&
