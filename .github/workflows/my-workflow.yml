@@ -26,7 +26,7 @@ jobs:
       - name: Checkout remote main branch
         uses: actions/checkout@v2
         with:
-          repository: leethomasrh/cop@
+          repository: leethomasrh/cop
           ref: main
           token: ${{ secrets.PAT }}
           path: ./cop
