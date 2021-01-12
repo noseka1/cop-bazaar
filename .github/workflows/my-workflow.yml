@@ -50,6 +50,6 @@ jobs:
         run: |
           rm -rf ./cop-output/output
           cp -r ./cop/output ./cop-output/output
-          git add ./cop-output/output &&
+          git add ./cop-output &&
           git commit -m "Updating output via gitaction" &&
           git push
