@@ -43,7 +43,7 @@ jobs:
           echo "checkout output branch" &&
           git remote add output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
           git fetch output &&
-          git checkout output &&
+          git checkout origin/output &&
           mv ./cop/output2 ./cop/output &&
           git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
