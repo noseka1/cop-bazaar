@@ -35,9 +35,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          echo "checkout main branch" &&
-          git remote add main "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
-          git fetch main &&
           python cop_bazaar.py &&
           mv ./cop/output ./cop/output2
           echo "checkout output branch" &&
