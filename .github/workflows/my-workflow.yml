@@ -38,12 +38,6 @@ jobs:
           git branch -v -a &&
           pwd &&
           find . -name output -print &&
-#          echo "checkout output branch" &&
-#          git remote update &&
-#          git fetch &&
-#          git branch &&
-#          git branch -v -a &&
-#          git checkout output &&
           echo "rm output folder and move updated output folder" &&
           mv ./cop/output ./cop/output2 &&
           rm -rf ./cop/output &&
@@ -52,3 +46,9 @@ jobs:
           git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
           git push
+#          echo "checkout output branch" &&
+#          git remote update &&
+#          git fetch &&
+#          git branch &&
+#          git branch -v -a &&
+#          git checkout output &&
