@@ -41,10 +41,10 @@ jobs:
           git branch &&
           git checkout -b output leethomasrh/cop/output &&
           echo "rm output folder and move updated output folder" &&
-          mv cop/output cop/output2 &&
-          rm -rf cop/output &&
-          mv cop/output2 cop/output &&
+          mv output output2 &&
+          rm -rf output &&
+          mv output2 output &&
           echo "add, commit and push output update" &&
-          git add cop/output &&
+          git add output &&
           git commit -m "Updating output via gitaction" &&
           git push
