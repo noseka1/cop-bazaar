@@ -11,11 +11,11 @@ from datetime import datetime
 from model.repository import Repository
 from model.category import Category
 
-CONFIG = "config.yaml"
+CONFIG = "./cop/config.yaml"
 
 class MarkDownOutputGenerator(object):
 
-    __OUTPUT_DIR = "output"
+    __OUTPUT_DIR = "./cop/output"
     __SORT_BY_STARS = "Stars"
     __SORT_BY_LAST_UPDATED = "Last Updated"
 

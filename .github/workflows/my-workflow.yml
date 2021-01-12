@@ -23,6 +23,13 @@ jobs:
           #setup username and email to use Github Actions Bot with no default email
           git config user.name "Github Actions Bot"
           git config user.email "<>"
+      - name: Checkout remote main branch
+        uses: actions/checkout@v2
+        with:
+          repository: leethomasrh/cop
+          ref: main
+          token: ${{ secrets.PAT }}
+          path: ./cop
       - name: Run COP update
         shell: bash
         env:
@@ -32,11 +39,11 @@ jobs:
           git remote add main "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
           git fetch main &&
           python cop_bazaar.py &&
-          mv output output2
+          mv ./cop/output ./cop/output2
           echo "checkout output branch" &&
           git remote add output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
           git fetch output &&
-          move output2 output &&
+          move ./cop/output2 ./cop/output &&
           git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
           git push
