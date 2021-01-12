@@ -37,7 +37,7 @@ jobs:
           python cop_bazaar.py &&
           git branch -v -a &&
           pwd &&
-          find . -name output -print &&
+          find . -name output -print
 #          echo "checkout output branch" &&
 #          git remote update &&
 #          git fetch &&
