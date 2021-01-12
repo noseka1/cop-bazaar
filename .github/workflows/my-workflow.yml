@@ -50,7 +50,7 @@ jobs:
         run: |
           echo "rm output folder and move updated output folder" &&
           rm -rf ./cop-output/output &&
-          cp ./cop/output ./cop-output/output &&
+          cp -r ./cop/output ./cop-output/output &&
           echo "add, commit and push output update" &&
           git add ./cop-output/output &&
           git commit -m "Updating output via gitaction" &&
