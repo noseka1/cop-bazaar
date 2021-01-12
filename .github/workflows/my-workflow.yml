@@ -28,22 +28,21 @@ jobs:
         with:
           repository: leethomasrh/cop
           token: ${{ secrets.PAT }}
-          path: cop
+          path: ./cop
       - name: Update COP List
         shell: bash
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
           python cop_bazaar.py &&
-          git clone git@github.com:leethomasrh/COP.git
           git branch -v -a &&
           echo "checkout output branch" &&
           git checkout output &&
           echo "rm output folder and move updated output folder" &&
-          mv output output2 &&
-          rm -rf output &&
-          mv output2 output &&
+          mv ./cop/output ./cop/output2 &&
+          rm -rf ./cop/output &&
+          mv ./cop/output2 ./cop/output &&
           echo "add, commit and push output update" &&
-          git add output &&
+          git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
           git push
