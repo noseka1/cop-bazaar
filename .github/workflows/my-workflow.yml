@@ -28,10 +28,15 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          echo "checkout output branch" &&
-          git remote add -t output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
+          echo "checkout main branch" &&
+          git remote add main "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
+          git fetch main &&
           python cop_bazaar.py &&
-          git branch -v -a &&
+          mv output output2
+          echo "checkout output branch" &&
+          git remote add output "https://${{ secrets.PAT }}@github.com/leethomasrh/cop.git" &&
+          git fetch output &&
+          move output2 output &&
           git add ./cop/output &&
           git commit -m "Updating output via gitaction" &&
           git push
