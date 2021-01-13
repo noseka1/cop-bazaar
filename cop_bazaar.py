@@ -15,7 +15,7 @@ CONFIG = "./cop/config.yaml"
 
 class MarkDownOutputGenerator(object):
 
-    __OUTPUT_DIR = "./cop/output"
+    __OUTPUT_DIR = "./cop-output/output"
     __SORT_BY_STARS = "Stars"
     __SORT_BY_LAST_UPDATED = "Last Updated"
 
