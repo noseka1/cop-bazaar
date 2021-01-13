@@ -48,12 +48,12 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          git config user.name "Github Actions Bot" &&
-          git config user.email "<>" &&
           pwd &&
           ls -alR &&
           rm -rf ./cop-output/output &&
           cd ./cop-output &&
+          git config user.name "Github Actions Bot" &&
+          git config user.email "<>" &&
           cp -r ../cop/output ./output &&
           git add ./output &&
           git commit -m "Updating output via gitaction" &&
