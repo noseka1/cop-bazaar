@@ -48,8 +48,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          rm -rf ./cop-output/output
-          cp -r ./cop/output ./cop-output/output
-          git add ./cop-output &&
+          rm -rf ./cop-output/output &&
+          cd cop-output &&
+          cp -r ../cop/output ./output &&
+          git add ./output &&
           git commit -m "Updating output via gitaction" &&
           git push
