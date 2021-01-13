@@ -21,8 +21,8 @@ jobs:
       - name: setup Github environment
         run: |
           #setup username and email to use Github Actions Bot with no default email
-          git config user.name "Github Actions Bot"
-          git config user.email "<>"
+          git config --global user.name "Github Actions Bot"
+          git config --global user.email "<>"
       - name: Checkout remote main branch
         uses: actions/checkout@v2
         with:
@@ -48,12 +48,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT }}
         run: |
-          pwd &&
-          ls -alR &&
           rm -rf ./cop-output/output &&
           cd ./cop-output &&
-          git config user.name "Github Actions Bot" &&
-          git config user.email "<>" &&
           cp -r ../cop/output ./output &&
           git add ./output &&
           git commit -m "Updating output via gitaction" &&
