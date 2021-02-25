@@ -112,6 +112,8 @@ repositories:
   categories: [ ocp_config, cicd ]
 - url: https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4
   categories: [ ocp_install ]
+- url: https://github.com/RHFieldProductManagement/baremetal-ipi-lab
+  categories: [ ocp_install ]
 - url: https://github.com/sa-mw-dach/ocp-on-kvm
   categories: [ ocp_install ]
 - url: https://github.com/sa-ne/openshift4-rhv-upi
