@@ -21,6 +21,9 @@ categories:
 - name: cicd
   title: CI/CD
   desc: CI/CD on OpenShift using Jenkins, Tekton, Argo CD, or other technologies. Automation and sample code for creating CI/CD pipelines.
+- name: ossm
+  title: OpenShift Service Mesh
+  desc: Repos related to OpenShift Service Mesh.
 
 # repositories in alphabetic order
 repositories:
@@ -140,6 +143,8 @@ repositories:
   categories: [ ocp_config ]
 - url: https://github.com/tosin2013/openshift-4-deployment-notes
   categories: [ ocp_install ]
+- url: https://github.com/trevorbox/service-mesh-patterns
+  categories: [ ossm ]
 - url: https://github.com/tsailiming/openshift4-disconnected
   categories: [ ocp_disconnected ]
 - url: https://github.com/tsailiming/openshift4-vmware-upi
