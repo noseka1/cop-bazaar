@@ -24,6 +24,9 @@ categories:
 - name: ossm
   title: OpenShift Service Mesh
   desc: Repos related to OpenShift Service Mesh.
+- name: rhacs
+  title: Red Hat Advanced Cluster Security for Kubernetes (RHACS)
+  desc: Repos related to RHACS
 
 # repositories in alphabetic order
 repositories:
@@ -41,6 +44,8 @@ repositories:
   categories: [ ocp_install, ocp_config, ocp_workloads ]
 - url: https://github.com/chuckersjp/coreos-iso-maker
   categories: [ ocp_install ]
+- url: https://github.com/clemenko/sr_tools
+  categories: [ rhacs ]
 - url:  https://github.com/gnunn-gitops/cluster-config-acm
   categories: [ ocp_config ]
 - url: https://github.com/darthlukan/gitops-workshop
