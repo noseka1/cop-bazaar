@@ -84,6 +84,10 @@ repositories:
   categories: [ cicd ]
 - url: https://github.com/nccurry/okd-4-libvirt
   categories: [ ocp_install ]
+- url: https://github.com/noseka1/multiregional-monitoring-using-observatorium
+  categories: [ ocp_config ]
+- url: https://github.com/noseka1/multiregional-observability
+  categories: [ ocp_config ]
 - url: https://github.com/noseka1/ocs-kustomization
   categories: [ ocs ]
 - url: https://github.com/noseka1/openshift-auto-upi
