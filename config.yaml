@@ -88,6 +88,8 @@ repositories:
   categories: [ ocp_config ]
 - url: https://github.com/noseka1/multiregional-observability
   categories: [ ocp_config ]
+- url: https://github.com/noseka1/openshift-automount-nfs-poc
+  categories: [ ocp_config ]
 - url: https://github.com/noseka1/ocs-kustomization
   categories: [ ocs ]
 - url: https://github.com/noseka1/openshift-auto-upi
