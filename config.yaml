@@ -98,6 +98,8 @@ repositories:
   categories: [ ocp_config ]
 - url: https://github.com/noseka1/quay-kustomization
   categories: [ quay ]
+- url: https://github.com/noseka1/service-mesh-kustomization
+  categories: [ ossm ]
 - url: https://github.com/raffaelespazzoli/ocp4-ansible-libvirt
   categories: [ ocp_install ]
 - url: https://github.com/ralvares/ipxe
