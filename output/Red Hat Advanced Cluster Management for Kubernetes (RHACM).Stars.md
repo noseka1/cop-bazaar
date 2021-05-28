@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-05-24 | 57 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-05-28 | 58 
 [open-cluster-management/labs](https://github.com/open-cluster-management/labs) | None | 2021-03-18 | 24 
 [open-cluster-management/demo-subscription-gitops](https://github.com/open-cluster-management/demo-subscription-gitops) | Demonstrate Subscriptions via Git Ops | 2021-02-02 | 12 
 [redhat-edge-computing/blueprint-management-hub](https://github.com/redhat-edge-computing/blueprint-management-hub) | A core OpenShift cluster to host multicluster management applications and CI/CD tools | 2021-04-22 | 7 
