@@ -194,6 +194,8 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/sushilsuresh/ocp4-vsphere
   categories: [ ocp_install ]
+- url: https://github.com/openshift-telco/ocp4-offline-operator-mirror.git
+  categories: [ ocp_disconnected ]
 - url: https://github.com/tosin2013/nfs-provisioner-role
   categories: [ ocp_config ]
 - url: https://github.com/tosin2013/openshift-4-deployment-notes
