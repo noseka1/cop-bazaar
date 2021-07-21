@@ -4,18 +4,18 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2021-06-24 | 18 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2021-06-23 | 7 
-[redhat-canada-gitops/catalog](https://github.com/redhat-canada-gitops/catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2021-06-17 | 36 
-[christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2021-06-16 | 27 
+[christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2021-07-20 | 30 
+[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2021-07-19 | 18 
+[redhat-canada-gitops/catalog](https://github.com/redhat-canada-gitops/catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2021-07-16 | 39 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2021-07-15 | 7 
 [christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2021-06-08 | 17 
 [noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-05-24 | 3 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2021-05-17 | 5 
-[siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2021-04-30 | 35 
+[siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2021-04-30 | 36 
 [redhat-edge-computing/blueprint-management-hub](https://github.com/redhat-edge-computing/blueprint-management-hub) | A core OpenShift cluster to host multicluster management applications and CI/CD tools | 2021-04-22 | 7 
 [sabre1041/rhacm-argocd](https://github.com/sabre1041/rhacm-argocd) | Approaches for integrating Red Hat Advanced Cluster Management and Argo CD. | 2021-04-14 | 5 
 [AlyIbrahim/openshift-add-ons](https://github.com/AlyIbrahim/openshift-add-ons) | None | 2021-04-05 | 1 
-[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2021-03-13 | 15 
+[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2021-03-13 | 17 
 [hornjason/argocd-lab](https://github.com/hornjason/argocd-lab) | None | 2020-12-21 | 5 
 [dgoodwin/openshift4-gitops](https://github.com/dgoodwin/openshift4-gitops) | Testing OpenShift 4 Cluster Configuration With Gitops | 2020-02-11 | 17 
 

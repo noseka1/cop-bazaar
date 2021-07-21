@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-06-29 | 61 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-07-20 | 66 
 [noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Manager | 2021-05-25 | 3 
 [noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-05-24 | 3 
 [redhat-edge-computing/blueprint-management-hub](https://github.com/redhat-edge-computing/blueprint-management-hub) | A core OpenShift cluster to host multicluster management applications and CI/CD tools | 2021-04-22 | 7 
