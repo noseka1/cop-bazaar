@@ -4,13 +4,14 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-07-21 | 289 
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-07-20 | 76 
-[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-07-19 | 234 
-[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-07-15 | 21 
-[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-07-12 | 170 
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-07-26 | 77 
+[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-07-26 | 170 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-07-26 | 290 
+[RHFieldProductManagement/openshift-aio](https://github.com/RHFieldProductManagement/openshift-aio) | None | 2021-07-26 | 0 
+[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2021-07-24 | 70 
+[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-07-22 | 21 
+[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-07-22 | 235 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/vchintal/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-07-07 | 0 
-[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2021-06-27 | 67 
 [marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2021-06-25 | 11 
 [spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2021-06-02 | 7 
 [williamcaban/ocp4-lab](https://github.com/williamcaban/ocp4-lab) | None | 2021-05-25 | 12 

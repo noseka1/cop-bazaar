@@ -4,10 +4,10 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2021-07-19 | 18 
-[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2021-07-13 | 221 
-[redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2021-07-12 | 49 
-[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2021-07-09 | 129 
+[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2021-07-24 | 221 
+[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2021-07-23 | 19 
+[redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2021-07-12 | 50 
+[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2021-07-09 | 130 
 [siamaksade/openshift-cd-demo](https://github.com/siamaksade/openshift-jenkins-demo) | CI/CD Demo on OpenShift | 2021-06-22 | 495 
 [redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2021-06-03 | 32 
 [mvazquezc/code-to-prod-blog](https://github.com/mvazquezc/code-to-prod-blog) | None | 2021-03-02 | 6 
