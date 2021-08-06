@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import logging
 import os
 import pprint
@@ -13,6 +13,7 @@ from model.category import Category
 
 CONFIG = "./cop/config.yaml"
 
+
 class MarkDownOutputGenerator(object):
 
     __OUTPUT_DIR = "./cop/output"
@@ -20,7 +21,7 @@ class MarkDownOutputGenerator(object):
     __SORT_BY_LAST_UPDATED = "Last Updated"
 
     def __category_basename(self, category, sort_by):
-        return ("%s.%s.md" % (category.title, sort_by)).replace('/','_')
+        return ("%s.%s.md" % (category.title, sort_by)).replace('/', '_')
 
     def __category_link(self, category, sort_by):
         return urllib.parse.quote(self.__category_basename(category, sort_by))
@@ -32,9 +33,11 @@ class MarkDownOutputGenerator(object):
 
     def __add_sort_by_link(self, out_file, category, sort_by):
         if sort_by == self.__SORT_BY_STARS:
-            out_file.write("[Sort by Last Updated](%s)" %(self.__category_link(category, self.__SORT_BY_LAST_UPDATED)))
+            out_file.write("[Sort by Last Updated](%s)" % (
+                self.__category_link(category, self.__SORT_BY_LAST_UPDATED)))
         else:
-            out_file.write("[Sort by Stars](%s)" %(self.__category_link(category, self.__SORT_BY_STARS)))
+            out_file.write("[Sort by Stars](%s)" % (
+                self.__category_link(category, self.__SORT_BY_STARS)))
 
     def __write_category(self, category, sort_by):
         fname = self.__category_filename(category, sort_by)
@@ -93,23 +96,28 @@ class MarkDownOutputGenerator(object):
             self.__generate_category(category)
 
     def __generate_front_page(self):
-        fname  = ("%s/%s" % (self.__OUTPUT_DIR, "README.md"))
+        fname = ("%s/%s" % (self.__OUTPUT_DIR, "README.md"))
         logging.info("Writing %s", fname)
         try:
             out_file = open(fname, 'w')
             try:
-                out_file.write("# Welcome to COP Bazaar\n")
+                out_file.write(
+                    "# Welcome to OpenShift Bazaar Source Code Index\n")
                 out_file.write("\n")
-                out_file.write("This is a catalog of OpenShift related projects created by Redhatters. If you would like to add"
-                        " your project to the catalog, include your project in the *config.yaml* file and submit your"
-                        " change as a pull request.\n")
+                out_file.write(
+                    "This is a catalog of OpenShift related projects created by Red Hatters.\n")
                 out_file.write("\n")
-                out_file.write("Choose a category:\n")
+                out_file.write("## Choose a category\n")
                 for category in Category.all:
                     out_file.write("* [%s](%s) - %s\n" % (category.title, self.__category_link(category, self.__SORT_BY_STARS),
-                            category.desc))
+                                                          category.desc))
                 out_file.write("\n")
-                out_file.write("Last updated %s" % (datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
+                out_file.write("## Contributing\n")
+                out_file.write("If you would like to add your project to the catalog, clone the https://github.com/noseka1/cop-bazaar"
+                               " git repository, include your project in the *config.yaml* file and submit your change as a pull request.\n")
+                out_file.write("\n")
+                out_file.write("Last updated %s" %
+                               (datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
             finally:
                 out_file.close()
         except:
@@ -120,6 +128,7 @@ class MarkDownOutputGenerator(object):
         self.__generate_front_page()
         self.__generate_categories()
 
+
 class Main(object):
 
     def __init_logging(self):
@@ -127,7 +136,8 @@ class Main(object):
         root.setLevel(logging.DEBUG)
         handler = logging.StreamHandler(sys.stdout)
         handler.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         root.addHandler(handler)
 
@@ -137,10 +147,11 @@ class Main(object):
         return config
 
     def __prepare_data(self, config):
-        categories = { "all": Category("All", "All projects.") }
+        categories = {"all": Category("All", "All projects.")}
 
         for category_yaml in config['categories']:
-            categories[category_yaml['name']] = Category(category_yaml['title'], category_yaml['desc'])
+            categories[category_yaml['name']] = Category(
+                category_yaml['title'], category_yaml['desc'])
 
         for repo_yaml in config['repositories']:
             repo = Repository(repo_yaml['url'])
@@ -159,5 +170,6 @@ class Main(object):
         config = self.__load_config()
         self.__prepare_data(config)
         MarkDownOutputGenerator().generate_output()
+
 
 Main().main()
