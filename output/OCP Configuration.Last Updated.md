@@ -4,14 +4,14 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2021-08-09 | 9 
+[redhat-canada-gitops/catalog](https://github.com/redhat-canada-gitops/catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2021-08-09 | 48 
 [lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2021-08-06 | 21 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-08-05 | 67 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-08-05 | 68 
 [tosin2013/nfs-provisioner-role](https://github.com/tosin2013/nfs-provisioner-role) | This role will configure an NFS Server and a nfs-provisioner container in OpenShift. | 2021-08-04 | 1 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2021-08-04 | 9 
-[redhat-canada-gitops/catalog](https://github.com/redhat-canada-gitops/catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2021-07-29 | 47 
-[noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2021-07-28 | 3 
+[noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2021-07-28 | 4 
 [kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2021-07-27 | 17 
-[christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2021-07-21 | 17 
+[christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2021-07-21 | 18 
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2021-07-20 | 30 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2021-07-11 | 1 
 [redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2021-06-03 | 32 
@@ -19,7 +19,7 @@ Name | Description | Last Updated | Stars
 [noseka1/multiregional-observability](https://github.com/noseka1/multiregional-observability) | None | 2021-05-24 | 1 
 [noseka1/multiregional-monitoring-using-observatorium](https://github.com/noseka1/multiregional-monitoring-using-observatorium) | Multi-regional monitoring using Observatorium POC | 2021-05-24 | 0 
 [noseka1/openshift-automount-nfs-poc](https://github.com/noseka1/openshift-automount-nfs-poc) | Automounting NFS on OpenShift (proof of concept) | 2021-05-23 | 2 
-[sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2021-05-22 | 14 
+[sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2021-05-22 | 15 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2021-05-17 | 6 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2021-05-04 | 0 
 [siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2021-04-30 | 38 
