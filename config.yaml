@@ -82,6 +82,8 @@ repositories:
   categories: [ ocp_config, argocd ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
   categories: [ ocp_install ]
+- url: https://github.com/kubealex/libvirt-ocp4-provisioner
+  categories: [ ocp_install ]  
 - url: https://github.com/lbohnsac/OCP4
   categories: [ ocp_config ]
 - url: https://github.com/liveaverage/packer-ocp4-vsphere-upi
