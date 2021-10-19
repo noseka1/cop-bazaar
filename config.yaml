@@ -94,6 +94,8 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/kasuboski/k8s-gitops
   categories: [ ocp_config, argocd ]
+- url: https://github.com/ksingh7/odf-nano
+  categories: [ ocs ]
 - url: https://github.com/maci0/openshift4-ansible
   categories: [ ocp_install ]
 - url: https://github.com/marbe/ocp4-vmware-upi-installer
