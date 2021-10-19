@@ -4,10 +4,10 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-09-30 | 79 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-10-19 | 81 
+[noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-10-08 | 9 
 [redhat-cop/acm-policies](https://github.com/redhat-cop/acm-policies) | Curated set of policies for Advanced Cluster Management for Kubernetes | 2021-09-02 | 4 
 [noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2021-08-09 | 4 
-[noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-05-24 | 8 
 [redhat-edge-computing/blueprint-management-hub](https://github.com/redhat-edge-computing/blueprint-management-hub) | A core OpenShift cluster to host multicluster management applications and CI/CD tools | 2021-04-22 | 8 
 [sabre1041/rhacm-argocd](https://github.com/sabre1041/rhacm-argocd) | Approaches for integrating Red Hat Advanced Cluster Management and Argo CD. | 2021-04-14 | 5 
 [open-cluster-management/labs](https://github.com/open-cluster-management/labs) | None | 2021-03-18 | 27 
