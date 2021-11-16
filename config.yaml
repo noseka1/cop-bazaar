@@ -200,6 +200,8 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/sushilsuresh/ocp4-vsphere
   categories: [ ocp_install ]
+- url: https://github.com/openshift-kni/baremetal-deploy
+  categories: [ ocp_install ]
 - url: https://github.com/openshift-telco/ocp4-offline-operator-mirror
   categories: [ ocp_disconnected ]
 - url: https://github.com/RHFieldProductManagement/openshift-aio
