@@ -222,6 +222,8 @@ repositories:
   categories: [ ocp_workloads ]
 - url: https://github.com/williamcaban/ocp4-lab
   categories: [ ocp_install ]
+- url: https://github.com/wpernath/openshift-config
+  categories: [ ocp_config ]
 
 #Repository('https://gitlab.consulting.redhat.com/nordics/ocp4-vmware-upi-prep', [Category.OCP_INSTALL])
 #Repository('https://gitlab.consulting.redhat.com/jnaess/ocp4-prereqs', [Category.OCP_INSTALL])
