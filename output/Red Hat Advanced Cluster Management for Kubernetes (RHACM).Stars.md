@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-11-16 | 90 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management/policy-collection) | A collection of policy examples for Open Cluster Management | 2021-11-18 | 90 
 [open-cluster-management/labs](https://github.com/open-cluster-management/labs) | None | 2021-03-18 | 28 
 [open-cluster-management/demo-subscription-gitops](https://github.com/open-cluster-management/demo-subscription-gitops) | Demonstrate Subscriptions via Git Ops | 2021-02-02 | 13 
 [noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-11-08 | 10 

@@ -4,14 +4,14 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-11-16 | 23 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-11-16 | 301 
-[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2021-11-16 | 47 
-[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2021-11-16 | 102 
+[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2021-11-18 | 103 
+[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2021-11-17 | 47 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-11-17 | 301 
+[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-11-17 | 23 
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-11-17 | 83 
 [RHFieldProductManagement/openshift-aio](https://github.com/RHFieldProductManagement/openshift-aio) | None | 2021-11-10 | 6 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-11-08 | 181 
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-11-03 | 83 
-[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-10-25 | 256 
+[RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-10-25 | 255 
 [sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2021-10-19 | 44 
 [chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2021-09-07 | 50 
 [noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2021-08-27 | 78 
