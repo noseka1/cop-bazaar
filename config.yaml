@@ -24,9 +24,9 @@ categories:
 - name: ossm
   title: OpenShift Service Mesh
   desc: Repos related to OpenShift Service Mesh.
-- name: argocd
+- name: ocp_gitops
   title: OpenShift GitOps
-  desc: Repos related to OpenShift GitOps (Argo CD)
+  desc: Repos related to OpenShift GitOps
 - name: rhacm
   title: Red Hat Advanced Cluster Management for Kubernetes (RHACM)
   desc: Repos related to RHACM
@@ -39,7 +39,7 @@ repositories:
 - url: https://github.com/aglenn360/ocp4_aws_upi_tf
   categories: [ ocp_install ]
 - url: https://github.com/AlyIbrahim/openshift-add-ons
-  categories: [ ocp_config, ocp_workloads, argocd ]
+  categories: [ ocp_config, ocp_workloads, ocp_gitops ]
 - url: https://github.com/alexgdmx/ocp4-vmware-terraform
   categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
@@ -49,9 +49,9 @@ repositories:
 - url: https://github.com/cadjai/mirror-content-for-disconnected-openshift-install
   categories: [ ocp_disconnected ]
 - url: https://github.com/christianh814/gitops-examples
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/christianh814/openshift-cluster-config
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/christianh814/openshift-toolbox
   categories: [ ocp_install, ocp_config, ocp_workloads ]
 - url: https://github.com/chuckersjp/coreos-iso-maker
@@ -61,7 +61,7 @@ repositories:
 - url: https://github.com/darthlukan/gitops-workshop
   categories: [ cicd ]
 - url: https://github.com/dgoodwin/openshift4-gitops
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/dmoessne/ocs-disk-gather
   categories: [ ocs ]
 - url: https://github.com/dudash/openshift-simplified-gcp-install
@@ -73,13 +73,13 @@ repositories:
 - url: https://github.com/eformat/openshift-disconnected
   categories: [ ocp_disconnected ]
 - url:  https://github.com/gnunn-gitops/cluster-config
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url:  https://github.com/gnunn-gitops/cluster-config-acm
   categories: [ ocp_config, rhacm ]
 - url: https://github.com/gnunn-gitops/product-catalog
-  categories: [ cicd, argocd ]
+  categories: [ cicd, ocp_gitops ]
 - url: https://github.com/hornjason/argocd-lab
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
   categories: [ ocp_install ]
 - url: https://github.com/kubealex/libvirt-ocp4-provisioner
@@ -93,7 +93,7 @@ repositories:
 - url: https://github.com/kcalliga/42_deployment
   categories: [ ocp_disconnected ]
 - url: https://github.com/kasuboski/k8s-gitops
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/ksingh7/odf-nano
   categories: [ ocs ]
 - url: https://github.com/maci0/openshift4-ansible
@@ -107,7 +107,7 @@ repositories:
 - url: https://github.com/nccurry/okd-4-libvirt
   categories: [ ocp_install ]
 - url: https://github.com/noseka1/multicluster-management-rhacm-argocd
-  categories: [ ocp_config, rhacm, argocd ]
+  categories: [ ocp_config, rhacm, ocp_gitops ]
 - url: https://github.com/noseka1/multiregional-monitoring-using-observatorium
   categories: [ ocp_config ]
 - url: https://github.com/noseka1/multiregional-observability
@@ -127,7 +127,7 @@ repositories:
 - url: https://github.com/noseka1/service-mesh-kustomization
   categories: [ ossm ]
 - url: https://github.com/PixelJonas/cluster-gitops
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/open-cluster-management/demo-subscription-gitops
   categories: [ ocp_config, rhacm ]
 - url: https://github.com/open-cluster-management/labs
@@ -145,7 +145,7 @@ repositories:
 - url: https://github.com/red-hat-storage/ocs-training
   categories: [ ocs ]
 - url: https://github.com/redhat-canada-gitops/catalog
-  categories: [ ocp_config, ocp_workloads, argocd ]
+  categories: [ ocp_config, ocp_workloads, ocp_gitops ]
 - url: https://github.com/redhat-cop/acm-policies
   categories: [ ocp_config, rhacm ]
 - url: https://github.com/redhat-cop/agnosticd
@@ -155,7 +155,7 @@ repositories:
 - url: https://github.com/redhat-cop/container-pipelines
   categories: [ cicd ]
 - url: https://github.com/redhat-cop/gitops-catalog
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/redhat-cop/infra-ansible
   categories: [ ocp_install ]
 - url: https://github.com/redhat-cop/openshift-toolkit
@@ -169,7 +169,7 @@ repositories:
 - url: https://github.com/redhat-cop/openshift-templates
   categories: [ ocp_config, cicd ]
 - url: https://github.com/redhat-edge-computing/blueprint-management-hub
-  categories: [ ocp_config, rhacm, argocd ]
+  categories: [ ocp_config, rhacm, ocp_gitops ]
 - url: https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4
   categories: [ ocp_install ]
 - url: https://github.com/RHFieldProductManagement/baremetal-ipi-lab
@@ -185,9 +185,9 @@ repositories:
 - url: https://github.com/sabre1041/openshift-logforwarding-splunk
   categories: [ ocp_config ]
 - url: https://github.com/sabre1041/rhacm-argocd
-  categories: [ ocp_config, rhacm, argocd ]
+  categories: [ ocp_config, rhacm, ocp_gitops ]
 - url: https://github.com/siamaksade/openshift-gitops-getting-started
-  categories: [ ocp_config, argocd ]
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/siamaksade/openshift-cd-demo
   categories: [ cicd ]
 - url: https://github.com/spagno/ocp4-utils
