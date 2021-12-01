@@ -19,3 +19,5 @@ Exception: Failed to fetch data for repo https://github.com/RedHatOfficial/ocp4-
 ```
 
 The list of git repositories scraped is configured in *config.yaml*file.
+
+COP Bazaar is used to generate [OpenShift Bazaar Source Code Index](https://github.com/noseka1/cop-bazaar/blob/output/output/README.md).
