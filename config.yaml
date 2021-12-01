@@ -154,6 +154,8 @@ repositories:
   categories: [ cicd ]
 - url: https://github.com/redhat-cop/container-pipelines
   categories: [ cicd ]
+- url: https://github.com/redhat-cop/gitops-catalog
+  categories: [ ocp_config, argocd ]
 - url: https://github.com/redhat-cop/infra-ansible
   categories: [ ocp_install ]
 - url: https://github.com/redhat-cop/openshift-toolkit
