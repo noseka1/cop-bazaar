@@ -72,6 +72,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/eformat/openshift-disconnected
   categories: [ ocp_disconnected ]
+- url: https://github.com/giannisalinetti/rhacs-operator-demo
+  categories: [ rhacs ]
 - url:  https://github.com/gnunn-gitops/cluster-config
   categories: [ ocp_config, ocp_gitops ]
 - url:  https://github.com/gnunn-gitops/cluster-config-acm
@@ -139,6 +141,8 @@ repositories:
 - url: https://github.com/ralvares/ipxe
   categories: [ ocp_install ]
 - url: https://github.com/ralvares/ansible-demo
+  categories: [ rhacs ]
+- url: https://github.com/rcarrata/rhacs-gitops
   categories: [ rhacs ]
 - url: https://github.com/RedHatOfficial/ocp4-helpernode
   categories: [ ocp_install ]
