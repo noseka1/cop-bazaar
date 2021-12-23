@@ -12,9 +12,9 @@ categories:
 - name: ocp_workloads
   title: OCP Workloads
   desc: Automation for deploying popular workloads on OpenShift.
-- name: ocs
-  title: OpenShift Container Storage
-  desc: Projects that focus on the OpenShift Container Storage product.
+- name: odf
+  title: OpenShift Data Foundation
+  desc: Projects that focus on the OpenShift Data Foundation product.
 - name: quay
   title: Red Hat Quay
   desc: Projects that focus on the Red Hat Quay product.
@@ -63,7 +63,7 @@ repositories:
 - url: https://github.com/dgoodwin/openshift4-gitops
   categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/dmoessne/ocs-disk-gather
-  categories: [ ocs ]
+  categories: [ odf ]
 - url: https://github.com/dudash/openshift-simplified-gcp-install
   categories: [ ocp_install ]
 - url: https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips
@@ -97,7 +97,7 @@ repositories:
 - url: https://github.com/kasuboski/k8s-gitops
   categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/ksingh7/odf-nano
-  categories: [ ocs ]
+  categories: [ odf ]
 - url: https://github.com/maci0/openshift4-ansible
   categories: [ ocp_install ]
 - url: https://github.com/marbe/ocp4-vmware-upi-installer
@@ -116,8 +116,8 @@ repositories:
   categories: [ ocp_config ]
 - url: https://github.com/noseka1/openshift-automount-nfs-poc
   categories: [ ocp_config ]
-- url: https://github.com/noseka1/ocs-kustomization
-  categories: [ ocs ]
+- url: https://github.com/noseka1/odf-kustomization
+  categories: [ odf ]
 - url: https://github.com/noseka1/openshift-auto-upi
   categories: [ ocp_install ]
 - url: https://github.com/noseka1/openshift-post-install
@@ -147,7 +147,7 @@ repositories:
 - url: https://github.com/RedHatOfficial/ocp4-helpernode
   categories: [ ocp_install ]
 - url: https://github.com/red-hat-storage/ocs-training
-  categories: [ ocs ]
+  categories: [ odf ]
 - url: https://github.com/redhat-canada-gitops/catalog
   categories: [ ocp_config, ocp_workloads, ocp_gitops ]
 - url: https://github.com/redhat-cop/acm-policies
