@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2021-10-21 | 5 
+[tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2021-12-13 | 5 
 [kcalliga/42_deployment](https://github.com/kcalliga/ocp4_upi_ansible) | Ansible Playbooks/Roles to Clone OCP 4.x Repos and Build Supporting Infrastructure Needed for UPI | 2021-08-25 | 8 
 [openshift-telco/ocp4-offline-operator-mirror](https://github.com/openshift-telco/ocp4-offline-operator-mirror) | Script to create a custom operator catalog for air-gapped (disconnected) environments by mirroring images to a local registry on a bastion system. | 2021-01-06 | 11 
 [eformat/openshift-disconnected](https://github.com/eformat/openshift-disconnected) | None | 2020-03-18 | 1 

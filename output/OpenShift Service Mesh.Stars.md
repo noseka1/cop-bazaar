@@ -5,6 +5,6 @@
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [trevorbox/service-mesh-patterns](https://github.com/trevorbox/service-mesh-patterns) | Design Considerations at the Edge of the ServiceMesh | 2021-11-12 | 17 
-[noseka1/service-mesh-kustomization](https://github.com/noseka1/service-mesh-kustomization) | Kustomization for deploying Red Hat OpenShift Service Mesh | 2021-06-07 | 4 
+[noseka1/service-mesh-kustomization](https://github.com/noseka1/service-mesh-kustomization) | Kustomization for deploying Red Hat OpenShift Service Mesh | 2021-12-14 | 4 
 
 [Sort by Last Updated](OpenShift%20Service%20Mesh.Last%20Updated.md)
