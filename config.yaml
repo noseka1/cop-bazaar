@@ -146,6 +146,8 @@ repositories:
   categories: [ rhacs ]
 - url: https://github.com/RedHatOfficial/ocp4-helpernode
   categories: [ ocp_install ]
+- url: https://github.com/red-hat-storage/ocs-ci
+  categories: [ odf ]
 - url: https://github.com/red-hat-storage/ocs-training
   categories: [ odf ]
 - url: https://github.com/redhat-canada-gitops/catalog
