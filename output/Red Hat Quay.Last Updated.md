@@ -4,6 +4,6 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2021-08-15 | 0 
+[noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2022-03-08 | 0 
 
 [Sort by Stars](Red%20Hat%20Quay.Stars.md)
