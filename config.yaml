@@ -178,6 +178,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/redhat-cop/ocp4-prereqs-validator
   categories: [ ocp_install ]
+- url: https://github.com/redhat-cop/openshift-disconnected-operators
+  categories: [ ocp_disconnected ]
 - url: https://github.com/redhat-cop/openshift-templates
   categories: [ ocp_config, cicd ]
 - url: https://github.com/redhat-edge-computing/blueprint-management-hub
