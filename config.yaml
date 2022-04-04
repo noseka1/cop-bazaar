@@ -84,6 +84,8 @@ repositories:
   categories: [ ocp_config, rhacm ]
 - url: https://github.com/gnunn-gitops/product-catalog
   categories: [ cicd, ocp_gitops ]
+- url: https://github.com/gnunn-gitops/standards
+  categories: [ cicd, ocp_gitops ]
 - url: https://github.com/hornjason/argocd-lab
   categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
