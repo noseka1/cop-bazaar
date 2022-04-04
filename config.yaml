@@ -48,6 +48,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/cadjai/mirror-content-for-disconnected-openshift-install
   categories: [ ocp_disconnected ]
+- url: https://github.com/cadjai/mirror-openshift-container-platform-operators
+  categories: [ ocp_disconnected ]
 - url: https://github.com/christianh814/gitops-examples
   categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/christianh814/openshift-cluster-config
