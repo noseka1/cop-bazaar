@@ -4,17 +4,17 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-04-04 | 316 
 [red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-04-04 | 98 
+[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-04-04 | 110 
 [openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-04-04 | 109 
 [kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2022-04-03 | 24 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-04-03 | 9 
 [gnunn-gitops/acs-automation](https://github.com/gnunn-gitops/acs-automation) | Ansible playbook to automate initialization of ACS | 2022-04-01 | 0 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2022-04-01 | 1 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-04-01 | 316 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-01 | 121 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-01 | 121 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2022-04-01 | 26 
-[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-03-30 | 110 
 [willb/openshift-ml-workflows-workshop](https://github.com/willb/openshift-ml-workflows-workshop) | This is material for a tutorial that @sophwats and @willb developed about machine learning workflows and about running them on OpenShift | 2022-03-29 | 34 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2022-03-29 | 5 
 [red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2022-03-29 | 89 
@@ -41,7 +41,7 @@ Name | Description | Last Updated | Stars
 [RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-02-12 | 278 
 [noseka1/multiregional-monitoring-using-observatorium](https://github.com/noseka1/multiregional-monitoring-using-observatorium) | Multi-regional monitoring using Observatorium POC | 2022-02-01 | 1 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2022-01-19 | 23 
-[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2022-01-18 | 139 
+[redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2022-01-18 | 140 
 [redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2022-01-18 | 53 
 [AlyIbrahim/openshift-add-ons](https://github.com/AlyIbrahim/openshift-add-ons) | None | 2022-01-14 | 2 
 [ksingh7/odf-nano](https://github.com/ksingh7/odf-nano) | ODF-Nano lets you deploy OpenShift Data Foundation on your Laptop (CRC) | 2022-01-13 | 36 
@@ -57,6 +57,7 @@ Name | Description | Last Updated | Stars
 [rcarrata/rhacs-gitops](https://github.com/rcarrata/rhacs-gitops) | Repository for install ACS as GitOps | 2021-10-20 | 5 
 [sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2021-10-19 | 45 
 [christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2021-10-18 | 26 
+[gnunn-gitops/standards](https://github.com/gnunn-gitops/standards) | GitOps standards used in my other repos | 2021-09-29 | 58 
 [redhat-cop/acm-policies](https://github.com/redhat-cop/acm-policies) | Curated set of policies for Advanced Cluster Management for Kubernetes | 2021-09-02 | 9 
 [kcalliga/42_deployment](https://github.com/kcalliga/ocp4_upi_ansible) | Ansible Playbooks/Roles to Clone OCP 4.x Repos and Build Supporting Infrastructure Needed for UPI | 2021-08-25 | 8 
 [tosin2013/nfs-provisioner-role](https://github.com/tosin2013/nfs-provisioner-role) | This role will configure an NFS Server and a nfs-provisioner container in OpenShift. | 2021-08-04 | 1 
