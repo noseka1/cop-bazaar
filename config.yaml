@@ -88,6 +88,8 @@ repositories:
   categories: [ cicd, ocp_gitops ]
 - url: https://github.com/hornjason/argocd-lab
   categories: [ ocp_config, ocp_gitops ]
+- url: https://github.com/james-cccc/vmware_static_ocp4_provisioning
+  categories: [ ocp_install ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
   categories: [ ocp_install ]
 - url: https://github.com/kubealex/libvirt-ocp4-provisioner
