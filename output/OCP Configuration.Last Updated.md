@@ -4,11 +4,11 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-04-15 | 30 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-04-14 | 9 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2022-04-13 | 23 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-13 | 122 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-13 | 122 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-04-13 | 30 
 [open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-04-13 | 112 
 [wpernath/openshift-config](https://github.com/wpernath/openshift-config) | A set of scripts to setup a new OpenShift cluster quickly | 2022-04-11 | 8 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2022-04-10 | 1 
@@ -19,6 +19,7 @@ Name | Description | Last Updated | Stars
 [redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2022-03-15 | 35 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2022-03-12 | 0 
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2022-03-04 | 66 
+[openshift-examples/web](https://github.com/openshift-examples/web) | 🚀 Content of examples.openshift.pub | 2022-03-04 | 75 
 [noseka1/multiregional-monitoring-using-observatorium](https://github.com/noseka1/multiregional-monitoring-using-observatorium) | Multi-regional monitoring using Observatorium POC | 2022-02-01 | 1 
 [AlyIbrahim/openshift-add-ons](https://github.com/AlyIbrahim/openshift-add-ons) | None | 2022-01-14 | 2 
 [sabre1041/rhacm-argocd](https://github.com/sabre1041/rhacm-argocd) | Approaches for integrating Red Hat Advanced Cluster Management and Argo CD. | 2021-11-12 | 6 

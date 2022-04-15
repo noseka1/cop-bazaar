@@ -6,7 +6,7 @@ Name | Description | Last Updated | Stars
 --- | --- | --- | --- 
 [siamaksade/openshift-cd-demo](https://github.com/siamaksade/openshift-jenkins-demo) | CI/CD Demo on OpenShift | 2021-11-24 | 508 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-04-14 | 317 
-[RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-02-12 | 277 
+[RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-02-12 | 276 
 [redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2022-04-14 | 229 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 218 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2022-04-14 | 188 
@@ -14,11 +14,12 @@ Name | Description | Last Updated | Stars
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-13 | 122 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-04-13 | 122 
 [open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-04-13 | 112 
-[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-04-14 | 109 
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-03-28 | 102 
+[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-04-15 | 109 
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-03-28 | 103 
 [red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-04-14 | 99 
 [red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2022-03-29 | 89 
 [noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2022-01-11 | 82 
+[openshift-examples/web](https://github.com/openshift-examples/web) | 🚀 Content of examples.openshift.pub | 2022-03-04 | 75 
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2022-03-04 | 66 
 [kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2022-03-22 | 66 
 [gnunn-gitops/standards](https://github.com/gnunn-gitops/standards) | GitOps standards used in my other repos | 2021-09-29 | 60 
@@ -35,7 +36,7 @@ Name | Description | Last Updated | Stars
 [redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2022-03-15 | 35 
 [willb/openshift-ml-workflows-workshop](https://github.com/willb/openshift-ml-workflows-workshop) | This is material for a tutorial that @sophwats and @willb developed about machine learning workflows and about running them on OpenShift | 2022-03-29 | 34 
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-11-06 | 31 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-04-13 | 30 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-04-15 | 30 
 [open-cluster-management/labs](https://github.com/stolostron/labs) | None | 2021-03-18 | 30 
 [stackrox/contributions](https://github.com/stackrox/contributions) | Samples for customer implementations & integrations | 2022-03-24 | 28 
 [sushilsuresh/ocp4-disconnected](https://github.com/sushilsuresh/ocp4-disconnected) | OpenShift 4.x disconnected install with a working OperatorHub | 2020-02-13 | 27 
@@ -103,7 +104,7 @@ Name | Description | Last Updated | Stars
 [gnunn-gitops/acs-automation](https://github.com/gnunn-gitops/acs-automation) | Ansible playbook to automate initialization of ACS | 2022-04-01 | 0 
 [gnunn-gitops/cluster-config-acm](https://github.com/gnunn-gitops/cluster-config-acm) | ACM version of cluster configuration | 2020-09-27 | 0 
 [nccurry/okd-4-libvirt](https://github.com/nccurry/okd-4-libvirt) | Ansible playbooks to deploy OKD on FCOS or OCP on RHCOS into QEMU/KVM. | 2020-06-09 | 0 
-[noseka1/odf-kustomization](https://github.com/noseka1/odf-kustomization) | Kustomization for deploying OpenShift Data Foundation | 2021-12-23 | 0 
+[noseka1/odf-kustomization](https://github.com/noseka1/odf-kustomization) | Kustomization for deploying OpenShift Data Foundation | 2022-04-15 | 0 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2022-03-12 | 0 
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2022-03-08 | 0 
 [ralvares/ansible-demo](https://github.com/ralvares/rhacs-demo) | Create sales demos on k8s/OpenShift with Ansible | 2021-11-04 | 0 
