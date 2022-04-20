@@ -72,6 +72,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/elajoie/lab.local
   categories: [ ocp_install ]
+- url: https://github.com/eformat/ocp4-sno-inplace
+  categories: [ ocp_install ]
 - url: https://github.com/eformat/openshift-disconnected
   categories: [ ocp_disconnected ]
 - url: https://github.com/giannisalinetti/rhacs-operator-demo
