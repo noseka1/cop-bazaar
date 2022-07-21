@@ -4,19 +4,19 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-06-23 | 322 
-[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-06-22 | 111 
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-06-20 | 110 
-[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2022-06-20 | 77 
-[RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-06-16 | 284 
-[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2022-06-13 | 27 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-21 | 322 
+[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-07-18 | 111 
+[tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2022-07-13 | 28 
+[RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-07-08 | 286 
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-06-20 | 112 
+[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2022-06-20 | 78 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2022-06-03 | 189 
-[RHFieldProductManagement/openshift-aio](https://github.com/RHFieldProductManagement/openshift-aio) | None | 2022-06-03 | 12 
-[sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2022-05-13 | 46 
-[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2022-05-07 | 85 
+[RHFieldProductManagement/openshift-aio](https://github.com/RHFieldProductManagement/openshift-aio) | None | 2022-06-03 | 16 
+[sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2022-05-13 | 47 
+[noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2022-05-07 | 87 
 [eformat/ocp4-sno-inplace](https://github.com/eformat/ocp4-sno-inplace) | None | 2022-04-20 | 3 
 [james-cccc/vmware_static_ocp4_provisioning](https://github.com/james-cccc/vmware_static_ocp4_provisioning) | Automation for provisioning Openshift (OCP) 4.6 clusters on VMWare in environments where DHCP is not available. | 2022-04-11 | 2 
-[chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2022-04-07 | 53 
+[chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2022-04-07 | 54 
 [vchintal/ocp4-vsphere-upi-automation](https://github.com/vchintal/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-07-07 | 0 
 [marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2021-06-25 | 12 
 [spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2021-06-02 | 7 
@@ -30,7 +30,7 @@ Name | Description | Last Updated | Stars
 [alexgdmx/ocp4-vmware-terraform](https://github.com/alexgdmx/ocp4-vmware-terraform) | None | 2020-06-10 | 15 
 [nccurry/okd-4-libvirt](https://github.com/nccurry/okd-4-libvirt) | Ansible playbooks to deploy OKD on FCOS or OCP on RHCOS into QEMU/KVM. | 2020-06-09 | 0 
 [Koma-Andrea/openshift4_vmware_infra_provisioner](https://github.com/thekoma/openshift4_vmware_infra_provisioner) | ansible pseudo IPI for Openshift v4 on vSphere without the need of a DHCP server or reservation | 2020-06-04 | 9 
-[sushilsuresh/ocp4-all-in-one](https://github.com/sushilsuresh/ocp4-all-in-one) | Patches required to get an OCP - AIO (all in one) cluster up and running | 2020-05-08 | 3 
+[sushilsuresh/ocp4-all-in-one](https://github.com/sushilsuresh/ocp4-all-in-one) | Patches required to get an OCP - AIO (all in one) cluster up and running | 2020-05-08 | 2 
 [ralvares/ipxe](https://github.com/ralvares/ipxe) | Automating Openshift Deployment on VMware using Static IPs where DHCP is not a option. | 2020-04-20 | 8 
 [elajoie/lab.local](https://github.com/elajoie/lab.local) | Ansible based install and setup of OCP and other tools | 2020-04-12 | 4 
 [mikishapiro/ocp4-cluster-install](https://github.com/mikishapiro/ocp4-cluster-install) | IPI AWS installer for OCP4 | 2020-04-03 | 7 
