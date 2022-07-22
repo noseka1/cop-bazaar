@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-21 | 322 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-22 | 322 
 [openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-07-18 | 111 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2022-07-13 | 28 
 [RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-07-08 | 286 

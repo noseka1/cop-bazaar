@@ -4,7 +4,7 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-21 | 322 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-22 | 322 
 [RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-07-08 | 286 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2022-06-03 | 189 
 [RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-06-20 | 112 

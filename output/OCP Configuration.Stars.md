@@ -7,13 +7,13 @@ Name | Description | Last Updated | Stars
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 220 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 
-[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-21 | 129 
+[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-22 | 129 
 [openshift-examples/web](https://github.com/openshift-examples/web) | 🚀 Content of examples.openshift.pub | 2022-06-06 | 85 
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2022-07-15 | 80 
 [siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2022-04-25 | 51 
 [christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2021-04-22 | 50 
 [redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2022-03-15 | 38 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-20 | 34 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-22 | 34 
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-11-06 | 31 
 [open-cluster-management/labs](https://github.com/stolostron/labs) | None | 2021-03-18 | 30 
 [christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2022-05-04 | 27 
@@ -39,6 +39,7 @@ Name | Description | Last Updated | Stars
 [gnunn-gitops/cluster-config-acm](https://github.com/gnunn-gitops/cluster-config-acm) | ACM version of cluster configuration | 2020-09-27 | 0 
 [james-cccc/ca-trustlist-builder](https://github.com/james-cccc/ca-trustlist-builder) | None | 2022-06-14 | 0 
 [james-cccc/createigns](https://github.com/james-cccc/createigns) | Create Openshift ignition files with static IPs | 2020-06-26 | 0 
+[james-cccc/ocp_ansible_day2_config](https://github.com/james-cccc/ocp_ansible_day2_config) | None | 2022-07-22 | 0 
 [james-cccc/openshift_day2_ansible_config](https://github.com/james-cccc/openshift_day2_ansible_config) | A slightly dated Ansible codebase that uses the k8s module to perform OpenShift cluster configuration. This was tested on OpenShift 4.6. | 2022-04-12 | 0 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2022-03-12 | 0 
 

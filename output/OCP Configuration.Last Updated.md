@@ -4,9 +4,10 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-22 | 129 
+[james-cccc/ocp_ansible_day2_config](https://github.com/james-cccc/ocp_ansible_day2_config) | None | 2022-07-22 | 0 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-22 | 34 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-07-21 | 9 
-[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-21 | 129 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-20 | 34 
 [wpernath/openshift-config](https://github.com/wpernath/openshift-config) | A set of scripts to setup a new OpenShift cluster quickly | 2022-07-19 | 9 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 

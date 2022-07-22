@@ -4,8 +4,8 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-22 | 34 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-07-21 | 9 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-20 | 34 
 [gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2022-07-19 | 30 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 
 [redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 

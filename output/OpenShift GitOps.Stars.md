@@ -9,7 +9,7 @@ Name | Description | Last Updated | Stars
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2022-07-15 | 80 
 [gnunn-gitops/standards](https://github.com/gnunn-gitops/standards) | GitOps standards used in my other repos | 2021-09-29 | 64 
 [siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2022-04-25 | 51 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-20 | 34 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-22 | 34 
 [gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2022-07-19 | 30 
 [christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2022-05-04 | 27 
 [kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2022-05-28 | 27 

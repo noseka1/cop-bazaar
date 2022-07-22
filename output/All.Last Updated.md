@@ -4,15 +4,16 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2022-07-22 | 89 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-22 | 322 
+[red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-07-22 | 102 
+[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-22 | 129 
+[james-cccc/ocp_ansible_day2_config](https://github.com/james-cccc/ocp_ansible_day2_config) | None | 2022-07-22 | 0 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-22 | 34 
 [PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-07-21 | 9 
-[red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-07-21 | 102 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-07-21 | 322 
-[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-07-21 | 129 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-07-20 | 34 
 [stackrox/contributions](https://github.com/stackrox/contributions) | Samples for customer implementations & integrations | 2022-07-20 | 28 
 [trevorbox/service-mesh-patterns](https://github.com/trevorbox/service-mesh-patterns) | Design Considerations at the Edge of the ServiceMesh | 2022-07-20 | 22 
 [gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2022-07-19 | 30 
-[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2022-07-19 | 89 
 [wpernath/openshift-config](https://github.com/wpernath/openshift-config) | A set of scripts to setup a new OpenShift cluster quickly | 2022-07-19 | 9 
 [openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-07-18 | 111 
 [redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-07-15 | 146 
