@@ -42,6 +42,8 @@ repositories:
   categories: [ ocp_config, ocp_workloads, ocp_gitops ]
 - url: https://github.com/alexgdmx/ocp4-vmware-terraform
   categories: [ ocp_install ]
+- url: https://github.com/arvin-a/openshift-upi-automation
+  categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
   categories: [ ocp_install ]
 - url: https://github.com/bmangoen/openshift-hybrid-install
