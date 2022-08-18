@@ -260,6 +260,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/wpernath/openshift-config
   categories: [ ocp_config ]
+- url: https://github.com/fperearodriguez/service-mesh-workshop
+  categories: [ ossm ]
 
 #Repository('https://gitlab.consulting.redhat.com/nordics/ocp4-vmware-upi-prep', [Category.OCP_INSTALL])
 #Repository('https://gitlab.consulting.redhat.com/jnaess/ocp4-prereqs', [Category.OCP_INSTALL])
