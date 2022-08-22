@@ -104,6 +104,8 @@ repositories:
   categories: [ ocp_config ]  
 - url: https://github.com/james-cccc/openshift_day2_ansible_config
   categories: [ ocp_config ]
+- url: https://github.com/james-cccc/ossm-productionisation-considerations
+  categories: [ ossm ]  
 - url: https://github.com/james-cccc/vmware_static_ocp4_provisioning
   categories: [ ocp_install ]
 - url: https://github.com/jcordes73/ocp4labs-ansible
