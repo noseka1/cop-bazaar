@@ -4,30 +4,32 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2022-08-18 | 31 
-[red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-08-18 | 103 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-08-18 | 324 
+[red-hat-storage/ocs-ci](https://github.com/red-hat-storage/ocs-ci) | None | 2022-08-22 | 102 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-08-22 | 37 
+[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2022-08-22 | 79 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2022-08-22 | 324 
+[james-cccc/ossm-productionisation-considerations](https://github.com/james-cccc/ossm-productionisation-considerations) | OSSM considerations  | 2022-08-22 | 0 
+[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-08-22 | 135 
+[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-08-22 | 111 
+[gnunn-gitops/product-catalog](https://github.com/gnunn-gitops/product-catalog) | Kustomize and ArgoCD Manifests for Product Catalog | 2022-08-21 | 31 
+[PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-08-21 | 9 
+[redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-08-19 | 156 
+[redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-08-19 | 156 
+[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-08-19 | 115 
+[fperearodriguez/service-mesh-workshop](https://github.com/fperearodriguez/service-mesh-workshop) | A repository to store a Red Hat OpenShift Service Mesh workshop. | 2022-08-19 | 0 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2022-08-18 | 1 
-[PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2022-08-18 | 9 
-[fperearodriguez/service-mesh-workshop](https://github.com/fperearodriguez/service-mesh-workshop) | A repository to store a Red Hat OpenShift Service Mesh workshop. | 2022-08-18 | 0 
 [hybrid-cloud-patterns/multicloud-gitops](https://github.com/hybrid-cloud-patterns/multicloud-gitops) | Multi-cloud Gitops validated pattern | 2022-08-18 | 5 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2022-08-18 | 29 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2022-08-17 | 25 
 [RHFieldProductManagement/openshift-aio](https://github.com/RHFieldProductManagement/openshift-aio) | OpenShift-AiO | 2022-08-17 | 17 
 [sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2022-08-16 | 47 
-[open-cluster-management/policy-collection](https://github.com/stolostron/policy-collection) | A collection of policy examples for Open Cluster Management | 2022-08-16 | 134 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2022-08-15 | 37 
-[redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-08-15 | 156 
-[redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2022-08-15 | 156 
 [christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2022-08-12 | 87 
-[openshift-kni/baremetal-deploy](https://github.com/openshift-kni/baremetal-deploy) | Deployment artifacts for OpenShift KNI bare metal clusters   | 2022-08-11 | 111 
 [eformat/ocp4-sno-inplace](https://github.com/eformat/ocp4-sno-inplace) | None | 2022-08-11 | 3 
 [redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2022-08-11 | 189 
 [stackrox/contributions](https://github.com/stackrox/contributions) | Samples for customer implementations & integrations | 2022-08-10 | 28 
-[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2022-08-08 | 28 
+[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2022-08-08 | 27 
 [RHFieldProductManagement/baremetal-ipi-lab](https://github.com/RHFieldProductManagement/baremetal-ipi-lab) | baremetal-ipi-lab | 2022-07-29 | 15 
 [RedHatOfficial/ocp4-helpernode](https://github.com/redhat-cop/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2022-07-28 | 290 
-[kubealex/libvirt-ocp4-provisioner](https://github.com/kubealex/libvirt-ocp4-provisioner) | Automate your OCP4 installation | 2022-07-28 | 79 
 [redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2022-07-26 | 234 
 [rcarrata/rhacs-gitops](https://github.com/rcarrata/rhacs-gitops) | Repository for install ACS as GitOps | 2022-07-26 | 6 
 [red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2022-07-22 | 89 
@@ -39,7 +41,6 @@ Name | Description | Last Updated | Stars
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2022-07-06 | 5 
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2022-07-05 | 1 
 [noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2022-06-28 | 6 
-[RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2022-06-20 | 115 
 [james-cccc/ca-trustlist-builder](https://github.com/james-cccc/ca-trustlist-builder) | None | 2022-06-14 | 0 
 [gnunn-gitops/acs-automation](https://github.com/gnunn-gitops/acs-automation) | Ansible playbook to automate initialization of ACS | 2022-06-14 | 0 
 [redhat-cop/openshift-disconnected-operators](https://github.com/redhat-cop/openshift-disconnected-operators) | None | 2022-06-13 | 53 
@@ -91,7 +92,7 @@ Name | Description | Last Updated | Stars
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-11-06 | 31 
 [darthlukan/gitops-workshop](https://github.com/darthlukan/gitops-workshop) | GitOps Workshop environment setup and workshop content | 2020-10-12 | 11 
 [gnunn-gitops/cluster-config-acm](https://github.com/gnunn-gitops/cluster-config-acm) | ACM version of cluster configuration | 2020-09-27 | 0 
-[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 220 
+[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 219 
 [sa-ne/openshift4-rhv-upi](https://github.com/sa-ne/openshift4-rhv-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on RHV Using Baremetal UPI | 2020-07-06 | 40 
 [james-cccc/createigns](https://github.com/james-cccc/createigns) | Create Openshift ignition files with static IPs | 2020-06-26 | 0 
 [alexgdmx/ocp4-vmware-terraform](https://github.com/alexgdmx/ocp4-vmware-terraform) | None | 2020-06-10 | 15 
