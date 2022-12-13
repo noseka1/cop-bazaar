@@ -176,6 +176,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/red-hat-storage/ocs-ci
   categories: [ odf ]
+- url: https://github.com/redhat-developer/openshift-dd-ext
+  categories: [ ocp_install ]
 - url: https://github.com/red-hat-storage/ocs-training
   categories: [ odf ]
 - url: https://github.com/redhat-canada-gitops/catalog
