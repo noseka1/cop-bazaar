@@ -178,6 +178,8 @@ repositories:
   categories: [ odf ]
 - url: https://github.com/redhat-developer/openshift-dd-ext
   categories: [ ocp_install ]
+- url: https://github.com/redhat-developer/odo
+  categories: [ ocp_install, ocp_config, ocp_disconnected ]
 - url: https://github.com/red-hat-storage/ocs-training
   categories: [ odf ]
 - url: https://github.com/redhat-canada-gitops/catalog
