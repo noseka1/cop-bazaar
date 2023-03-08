@@ -46,6 +46,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
   categories: [ ocp_install ]
+- url: https://github.com/auto-shift/autoshift
+  categories: [ ocp_config, ocp_gitops ]
 - url: https://github.com/bmangoen/openshift-hybrid-install
   categories: [ ocp_install ]
 - url: https://github.com/cadjai/mirror-content-for-disconnected-openshift-install
