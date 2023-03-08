@@ -4,11 +4,11 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[stackrox/contributions](https://github.com/stackrox/contributions) | Samples for customer implementations & integrations | 2022-08-10 | 28 
-[rcarrata/rhacs-gitops](https://github.com/rcarrata/rhacs-gitops) | Repository for install ACS as GitOps | 2022-07-26 | 6 
-[gnunn-gitops/acs-automation](https://github.com/gnunn-gitops/acs-automation) | Ansible playbook to automate initialization of ACS | 2022-06-14 | 0 
-[clemenko/sr_tools](https://github.com/clemenko/sr_tools) | my StackRox tools | 2022-04-19 | 17 
+[stackrox/contributions](https://github.com/stackrox/contributions) | Samples for customer implementations & integrations | 2023-03-03 | 30 
+[gnunn-gitops/acs-automation](https://github.com/gnunn-gitops/acs-automation) | Ansible playbook to automate initialization of ACS | 2023-02-11 | 0 
+[rcarrata/rhacs-gitops](https://github.com/rcarrata/rhacs-gitops) | Repository for install ACS as GitOps | 2023-01-24 | 11 
+[clemenko/sr_tools](https://github.com/clemenko/sr_tools) | my StackRox tools | 2022-04-19 | 19 
 [ralvares/ansible-demo](https://github.com/ralvares/rhacs-demo) | Create sales demos on k8s/OpenShift with Ansible | 2021-11-04 | 0 
-[giannisalinetti/rhacs-operator-demo](https://github.com/giannisalinetti/rhacs-operator-demo) | Red Hat Advanced Cluster Security Operator Demo | 2021-07-15 | 4 
+[giannisalinetti/rhacs-operator-demo](https://github.com/giannisalinetti/rhacs-operator-demo) | Red Hat Advanced Cluster Security Operator Demo | 2021-07-15 | 6 
 
 [Sort by Stars](Red%20Hat%20Advanced%20Cluster%20Security%20for%20Kubernetes%20%28RHACS%29.Stars.md)
