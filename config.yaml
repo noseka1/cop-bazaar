@@ -86,9 +86,11 @@ repositories:
   categories: [ ocp_gitops, rhacm ]
 - url: https://github.com/giannisalinetti/rhacs-operator-demo
   categories: [ rhacs ]
-- url:  https://github.com/gnunn-gitops/cluster-config
+- url: https://github.com/gnunn-gitops/acs-automation
+  categories: [ rhacs ]
+- url: https://github.com/gnunn-gitops/cluster-config
   categories: [ ocp_config, ocp_gitops ]
-- url:  https://github.com/gnunn-gitops/cluster-config-acm
+- url: https://github.com/gnunn-gitops/cluster-config-acm
   categories: [ ocp_config, rhacm ]
 - url: https://github.com/gnunn-gitops/product-catalog
   categories: [ cicd, ocp_gitops ]
