@@ -134,8 +134,6 @@ repositories:
   categories: [ cicd ]
 - url: https://github.com/nccurry/okd-4-libvirt
   categories: [ ocp_install ]
-- url: https://github.com/noseka1/gitops-friendly-machinesets-operator
-  categories: [ ocp_gitops ]
 - url: https://github.com/noseka1/multicluster-management-rhacm-argocd
   categories: [ ocp_config, rhacm, ocp_gitops ]
 - url: https://github.com/noseka1/multiregional-monitoring-using-observatorium
