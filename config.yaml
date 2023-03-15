@@ -80,6 +80,8 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/elajoie/lab.local
   categories: [ ocp_install ]
+- url: https://github.com/felixkrohn/acs-scripts
+  categories: [ rhacs ]
 - url: https://github.com/fperearodriguez/service-mesh-workshop
   categories: [ ossm ]
 - url: https://github.com/hybrid-cloud-patterns/multicloud-gitops
