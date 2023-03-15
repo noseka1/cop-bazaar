@@ -4,9 +4,9 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[cadjai/mirror-openshift-container-platform-operators](https://github.com/cadjai/mirror-openshift-container-platform-operators) | helper playbooks to mirror OCP operators from various indices. It uses script provided by other Red Hat Consultants (see readme for source). | 2023-03-10 | 2 
 [redhat-cop/openshift-disconnected-operators](https://github.com/redhat-cop/openshift-disconnected-operators) | None | 2023-02-14 | 54 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2022-12-08 | 4 
-[cadjai/mirror-openshift-container-platform-operators](https://github.com/cadjai/mirror-openshift-container-platform-operators) | helper playbooks to mirror OCP operators from various indices. It uses script provided by other Red Hat Consultants (see readme for source). | 2022-09-06 | 2 
 [kcalliga/42_deployment](https://github.com/kcalliga/ocp4_upi_ansible) | Ansible Playbooks/Roles to Clone OCP 4.x Repos and Build Supporting Infrastructure Needed for UPI | 2021-08-25 | 9 
 [openshift-telco/ocp4-offline-operator-mirror](https://github.com/openshift-telco/ocp4-offline-operator-mirror) | Script to create a custom operator catalog for air-gapped (disconnected) environments by mirroring images to a local registry on a bastion system. | 2021-01-06 | 13 
 [eformat/openshift-disconnected](https://github.com/eformat/openshift-disconnected) | None | 2020-03-18 | 2 

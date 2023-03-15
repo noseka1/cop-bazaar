@@ -19,4 +19,4 @@ This is a catalog of OpenShift related projects created by Red Hatters.
 ## Contributing
 If you would like to add your project to the catalog, clone the https://github.com/noseka1/cop-bazaar git repository, include your project in the *config.yaml* file and submit your change as a pull request.
 
-Last updated 08/03/2023 19:30:15
+Last updated 15/03/2023 19:36:29
