@@ -176,6 +176,8 @@ repositories:
   categories: [ rhacs ]
 - url: https://github.com/rcarrata/rhacs-gitops
   categories: [ rhacs ]
+- url: https://github.com/romerobu/manual-workshop-infra
+  categories: [ ocp_gitops ]
 - url: https://github.com/RedHatOfficial/ocp4-helpernode
   categories: [ ocp_install ]
 - url: https://github.com/red-hat-storage/ocs-ci
