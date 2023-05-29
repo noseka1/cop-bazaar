@@ -214,6 +214,8 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/RHFieldProductManagement/baremetal-ipi-lab
   categories: [ ocp_install ]
+- url: https://github.com/romerobu/manual-workshop-infra
+  categories: [ ocp_gitops ]  
 - url: https://github.com/sa-mw-dach/ocp-on-kvm
   categories: [ ocp_install ]
 - url: https://github.com/sa-ne/openshift4-rhv-upi
