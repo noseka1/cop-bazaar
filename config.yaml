@@ -132,8 +132,10 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/marbe/ocp4-vmware-upi-installer
   categories: [ ocp_install ]
-- url: https://github.com/mikishapiro/ocp4-cluster-install
+- url: https://github.com/marbindrakon/signal9-lab-gitops
   categories: [ ocp_install ]
+- url: https://github.com/mikishapiro/ocp4-cluster-install
+  categories: [ rhacm ]
 - url: https://github.com/mvazquezc/code-to-prod-blog
   categories: [ cicd ]
 - url: https://github.com/nccurry/okd-4-libvirt
