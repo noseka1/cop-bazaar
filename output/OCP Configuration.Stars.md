@@ -4,38 +4,38 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2023-05-23 | 223 
-[redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2023-05-23 | 223 
-[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2022-11-08 | 222 
-[open-cluster-management/policy-collection](https://github.com/open-cluster-management-io/policy-collection) | A collection of policy examples for Open Cluster Management | 2023-05-29 | 169 
-[christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2023-05-18 | 128 
-[openshift-examples/web](https://github.com/openshift-examples/web) | 🚀 Content of examples.openshift.pub | 2023-05-13 | 102 
-[siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2023-01-04 | 63 
-[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2023-05-26 | 53 
-[christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2022-09-14 | 51 
-[redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2023-03-01 | 40 
-[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2023-05-18 | 38 
+[redhat-canada-gitops/catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2023-08-18 | 242 
+[redhat-cop/gitops-catalog](https://github.com/redhat-cop/gitops-catalog) | Tools and technologies that are hosted on an OpenShift cluster | 2023-08-18 | 242 
+[redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2022-11-08 | 225 
+[open-cluster-management/policy-collection](https://github.com/open-cluster-management-io/policy-collection) | A collection of policy examples for Open Cluster Management | 2023-08-01 | 178 
+[christianh814/gitops-examples](https://github.com/christianh814/gitops-examples) | Scratch paper for me to test things. Most things are broken. Don't use this repo. | 2023-08-16 | 142 
+[openshift-examples/web](https://github.com/openshift-examples/web) | 🚀 Content of examples.openshift.pub | 2023-08-14 | 107 
+[siamaksade/openshift-gitops-getting-started](https://github.com/siamaksade/openshift-gitops-getting-started) | https://www.openshift.com/learn/topics/gitops/ | 2023-06-28 | 63 
+[gnunn-gitops/cluster-config](https://github.com/gnunn-gitops/cluster-config) | GitOps Cluster Configuration | 2023-08-26 | 59 
+[christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2022-09-14 | 52 
+[redhat-cop/openshift-templates](https://github.com/redhat-cop/openshift-templates) | A home for templates that do not live in https://github.com/redhat-cop/containers-quickstarts | 2023-03-01 | 45 
+[kasuboski/k8s-gitops](https://github.com/kasuboski/k8s-gitops) | Specify my Kubernetes cluster declaratively | 2023-08-01 | 39 
+[christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2022-05-04 | 32 
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-11-06 | 31 
-[christianh814/openshift-cluster-config](https://github.com/christianh814/openshift-cluster-config) | Setting up an OpenShift cluster using Kustomize and ArgoCD | 2022-05-04 | 30 
 [open-cluster-management/labs](https://github.com/stolostron/labs) | None | 2021-03-18 | 30 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2022-11-10 | 29 
+[noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-11-08 | 26 
 [lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2023-03-27 | 24 
-[noseka1/multicluster-management-rhacm-argocd](https://github.com/noseka1/multicluster-management-rhacm-argocd) | Example of managing multiple OpenShift/Kubernetes clusters using RHACM and Argo CD | 2021-11-08 | 24 
-[dgoodwin/openshift4-gitops](https://github.com/dgoodwin/openshift4-gitops) | Testing OpenShift 4 Cluster Configuration With Gitops | 2020-02-11 | 17 
-[redhat-cop/acm-policies](https://github.com/redhat-cop/acm-policies) | Curated set of policies for Advanced Cluster Management for Kubernetes | 2021-09-02 | 16 
-[PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2023-05-29 | 13 
+[dgoodwin/openshift4-gitops](https://github.com/dgoodwin/openshift4-gitops) | Testing OpenShift 4 Cluster Configuration With Gitops | 2020-02-11 | 18 
+[redhat-cop/acm-policies](https://github.com/redhat-cop/acm-policies) | Curated set of policies for Advanced Cluster Management for Kubernetes | 2021-09-02 | 17 
+[PixelJonas/cluster-gitops](https://github.com/PixelJonas/cluster-gitops) | GitOps Repository for initial OCP Cluster | 2023-08-28 | 13 
 [open-cluster-management/demo-subscription-gitops](https://github.com/stolostron/demo-subscription-gitops) | Demonstrate Subscriptions via Git Ops | 2021-02-02 | 13 
-[wpernath/openshift-config](https://github.com/wpernath/openshift-config) | A set of scripts to setup a new OpenShift cluster quickly | 2023-05-03 | 12 
-[noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2022-06-28 | 9 
+[wpernath/openshift-config](https://github.com/wpernath/openshift-config) | A set of scripts to setup a new OpenShift cluster quickly | 2023-08-25 | 13 
+[noseka1/rhacm-kustomization](https://github.com/noseka1/rhacm-kustomization) | Kustomization for deploying Red Hat Advanced Cluster Management for Kubernetes | 2022-06-28 | 10 
 [redhat-edge-computing/blueprint-management-hub](https://github.com/redhat-edge-computing/blueprint-management-hub) | A core OpenShift cluster to host multicluster management applications and CI/CD tools | 2021-04-22 | 8 
-[auto-shift/autoshift](https://github.com/auto-shift/autoshift) | None | 2023-05-10 | 7 
+[auto-shift/autoshift](https://github.com/auto-shift/autoshift) | None | 2023-08-09 | 7 
 [sabre1041/rhacm-argocd](https://github.com/sabre1041/rhacm-argocd) | Approaches for integrating Red Hat Advanced Cluster Management and Argo CD. | 2021-11-12 | 7 
 [hornjason/argocd-lab](https://github.com/hornjason/argocd-lab) | None | 2020-12-21 | 6 
-[noseka1/multiregional-monitoring-using-observatorium](https://github.com/noseka1/multiregional-monitoring-using-observatorium) | Multi-regional monitoring using Observatorium POC | 2022-02-01 | 3 
+[noseka1/multiregional-monitoring-using-observatorium](https://github.com/noseka1/multiregional-monitoring-using-observatorium) | Multi-regional monitoring using Observatorium POC | 2022-02-01 | 4 
+[noseka1/openshift-automount-nfs-poc](https://github.com/noseka1/openshift-automount-nfs-poc) | Automounting NFS on OpenShift (proof of concept) | 2021-05-23 | 3 
 [AlyIbrahim/openshift-add-ons](https://github.com/AlyIbrahim/openshift-add-ons) | None | 2022-01-14 | 2 
-[noseka1/openshift-automount-nfs-poc](https://github.com/noseka1/openshift-automount-nfs-poc) | Automounting NFS on OpenShift (proof of concept) | 2021-05-23 | 2 
 [noseka1/multiregional-observability](https://github.com/noseka1/multiregional-observability) | None | 2022-07-08 | 1 
-[noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2022-03-12 | 1 
+[noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2023-08-05 | 1 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2023-04-13 | 1 
 [tosin2013/nfs-provisioner-role](https://github.com/tosin2013/nfs-provisioner-role) | This role will configure an NFS Server and a nfs-provisioner container in OpenShift. | 2021-08-04 | 1 
 [gnunn-gitops/cluster-config-acm](https://github.com/gnunn-gitops/cluster-config-acm) | ACM version of cluster configuration | 2020-09-27 | 0 
